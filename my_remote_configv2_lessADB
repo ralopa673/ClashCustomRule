@@ -115,5 +115,5 @@ custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🚀 节点选择`[]♻�
 custom_proxy_group=🛑 广告拦截`select`[]REJECT`[]DIRECT
 custom_proxy_group=🍃 应用净化`select`[]REJECT`[]DIRECT
 custom_proxy_group=🆎 AdBlock`select`[]REJECT`[]DIRECT
-custom_proxy_group=🛡️ 隐私防护`select`[]REJECT`[]DIRECT
+;custom_proxy_group=🛡️ 隐私防护`select`[]REJECT`[]DIRECT
 
