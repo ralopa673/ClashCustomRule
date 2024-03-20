@@ -75,17 +75,17 @@ custom_proxy_group=🚀 手动切换`select`.*
 custom_proxy_group=♻️ 自动选择`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9])))`http://www.apple.com/library/test/success.html`300,100
 
 custom_proxy_group=🔯 故障转移`fallback`.*`http://www.apple.com/library/test/success.html`300,100
-custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]♻️ 自动选择`[]DIRECT`[]🇸🇬 狮城auto`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇺🇲 美国auto`[]🚀 手动切换
+custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]♻️ 自动选择`[]DIRECT`[]🇸🇬 狮城auto`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇺🇲 美国auto`[]🚀 手动切换`select`.*
 ;custom_proxy_group=🎼 Spotify`select`[]DIRECT`[]🚀 节点选择`[]♻️ 自动选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]🚀 手动切换
 
 custom_proxy_group=🤖 OpenAI`select`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇨🇳 台湾auto`[]DIRECT`select`.*
 custom_proxy_group=🤖 Bing`select`[]DIRECT`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇨🇳 台湾auto`select`.*
-custom_proxy_group=🤖 DeepL`select`[]DIRECT`[]🚀 节点选择``.*
+custom_proxy_group=🤖 DeepL`select`[]DIRECT`[]🚀 节点选择`select`.*
 ;custom_proxy_group=🤖 Anthropic`select`[]🚀 手动切换`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]🚀 手动切换
 
 custom_proxy_group=📹 YouTube`select`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]DIRECT`[]🚀 手动切换
-custom_proxy_group=🔍 Google`select`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]🚀 手动切换
-custom_proxy_group=📢 谷歌FCM`select`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]🚀 手动切换
+custom_proxy_group=🔍 Google`select`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]🚀 手动切换`select`.*
+custom_proxy_group=📢 谷歌FCM`select`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]🚀 手动切换`select`.*
 custom_proxy_group=📲 Telegram`select`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]🚀 手动切换
 
 custom_proxy_group=🇭🇰 香港auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:港|香港|HongKong|HK|Hong Kong)).*$)`http://www.apple.com/library/test/success.html`300,100
