@@ -92,6 +92,7 @@ ruleset=🇪🇺 欧洲网站,[]GEOIP,LU
 ruleset=🇪🇺 欧洲网站,[]GEOIP,FI
 ruleset=🇪🇺 欧洲网站,[]GEOIP,GR
 ruleset=🇪🇺 欧洲网站,[]GEOIP,IE
+#东欧
 ruleset=🇪🇺 欧洲网站,[]GEOIP,CZ
 ruleset=🇪🇺 欧洲网站,[]GEOIP,SK
 ruleset=🇪🇺 欧洲网站,[]GEOIP,VA
@@ -104,6 +105,9 @@ ruleset=🇪🇺 欧洲网站,[]GEOIP,LI
 ruleset=🇪🇺 欧洲网站,[]GEOIP,LV
 ruleset=🇪🇺 欧洲网站,[]GEOIP,PL
 ruleset=🇪🇺 欧洲网站,[]GEOIP,HU
+;以色列
+ruleset=🇪🇺 欧洲网站,[]GEOIP,IL
+
 
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
