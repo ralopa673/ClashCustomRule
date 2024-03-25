@@ -6,7 +6,7 @@
 ;v6 改变国外媒体、youtube的顺序，使其先于google等出现
 ; v6c, 加入tsumaniNet的花哨命名：港台+新加坡+日本+美国
 ; v6d, 把原本的apple测速，更换为Google测速
-; v8增加欧洲网站；v9增加北美学术
+; v8增加欧洲网站；v9增加北美学术,换回apple连通性测试
 
 ;去广告：支持
 ;自动测速：支持
@@ -87,9 +87,9 @@ ruleset=🐟 漏网之鱼,[]FINAL
 ;设置分组标志位
 custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`[]🔯 故障转移`[]🚀 手动切换`[]🇸🇬 狮城auto`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇺🇲 美国auto`[]DIRECT
 custom_proxy_group=🚀 手动切换`select`.*
-custom_proxy_group=♻️ 自动选择`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9])))`https://www.worldbank.org/en/about/legal`300,100
+custom_proxy_group=♻️ 自动选择`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9])))`http://www.apple.com/library/test/success.html`300,100
 
-custom_proxy_group=🔯 故障转移`fallback`.*`https://www.worldbank.org/en/about/legal`300,100
+custom_proxy_group=🔯 故障转移`fallback`.*`http://www.apple.com/library/test/success.html`300,100
 custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]♻️ 自动选择`[]DIRECT`[]🇸🇬 狮城auto`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇺🇲 美国auto`[]🚀 手动切换`select`.*
 ;custom_proxy_group=🎼 Spotify`select`[]DIRECT`[]🚀 节点选择`[]♻️ 自动选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]🚀 手动切换
 
@@ -109,12 +109,12 @@ custom_proxy_group=🔍 Google`select`[]🚀 节点选择`[]🇭🇰 香港auto`
 custom_proxy_group=📢 谷歌FCM`select`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]🚀 手动切换`select`.*
 custom_proxy_group=📲 Telegram`select`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]🚀 手动切换
 
-custom_proxy_group=🇭🇰 香港auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:港|香港|HongKong|HK|Hong Kong)).*$)`https://www.worldbank.org/en/about/legal`300,100
-custom_proxy_group=🇨🇳 台湾auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:台|新北|彰化|澎湖|TW|Taiwan)).*$)`https://www.worldbank.org/en/about/legal`300,100
-custom_proxy_group=🇸🇬 狮城auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:新加坡|坡|狮城|淡马|SG|Singapore)).*$)`https://www.worldbank.org/en/about/legal`300,100
-custom_proxy_group=🇯🇵 日本auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:日本|川日|东京|大阪|泉日|埼玉|沪日|深日|霓虹|JP|Japan)).*$)`https://www.worldbank.org/en/about/legal`300,100
-custom_proxy_group=🇺🇲 美国auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:美|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|洛城|SJC|United States|(?<![a-zA-Z])US(?![a-zA-Z])|(?<![a-zA-Z])USA(?![a-zA-Z])|(?<![a-zA-Z])USD(?![a-zA-Z]))).*$)`https://www.worldbank.org/en/about/legal`300,,150
-;custom_proxy_group=🇰🇷 韩国auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:KR|Korea|KOR|首尔|韩|韓)).*$)`https://www.worldbank.org/en/about/legal`300,100
+custom_proxy_group=🇭🇰 香港auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:港|香港|HongKong|HK|Hong Kong)).*$)`http://www.apple.com/library/test/success.html`300,100
+custom_proxy_group=🇨🇳 台湾auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:台|新北|彰化|澎湖|TW|Taiwan)).*$)`http://www.apple.com/library/test/success.html`300,100
+custom_proxy_group=🇸🇬 狮城auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:新加坡|坡|狮城|淡马|SG|Singapore)).*$)`http://www.apple.com/library/test/success.html`300,100
+custom_proxy_group=🇯🇵 日本auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:日本|川日|东京|大阪|泉日|埼玉|沪日|深日|霓虹|JP|Japan)).*$)`http://www.apple.com/library/test/success.html`300,100
+custom_proxy_group=🇺🇲 美国auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:美|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|洛城|SJC|United States|(?<![a-zA-Z])US(?![a-zA-Z])|(?<![a-zA-Z])USA(?![a-zA-Z])|(?<![a-zA-Z])USD(?![a-zA-Z]))).*$)`http://www.apple.com/library/test/success.html`300,,150
+;custom_proxy_group=🇰🇷 韩国auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:KR|Korea|KOR|首尔|韩|韓)).*$)`http://www.apple.com/library/test/success.html`300,100
 
 custom_proxy_group=🇪🇺 欧洲网站`select`[]DIRECT`[]🚀 节点选择`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`select`.*
 custom_proxy_group=🎓 北美学术`select`[]DIRECT`[]🚀 节点选择`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`select`.*
