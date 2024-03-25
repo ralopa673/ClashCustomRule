@@ -1,4 +1,5 @@
 # NAME: EUdomains
+# 2024年3月26日
 GEOIP,EU
 GEOIP,DE
 GEOIP,FR
@@ -34,6 +35,7 @@ GEOIP,PL
 GEOIP,HU
 ##以色列
 GEOIP,IL
+
 ## 欧洲域名
 DOMAIN-SUFFIX,fr
 DOMAIN-SUFFIX,it
@@ -44,12 +46,12 @@ DOMAIN-SUFFIX,no
 DOMAIN-SUFFIX,ac.at
 DOMAIN-SUFFIX,insead.edu
 DOMAIN-SUFFIX,hec.edu
+DOMAIN-SUFFIX,london.edu
 DOMAIN-SUFFIX,eu
 DOMAIN-SUFFIX,ac.uk
+DOMAIN-SUFFIX,co.uk
+
 ## 欧洲学术
 DOMAIN-SUFFIX,eeassoc.org
 DOMAIN-SUFFIX,org.uk
 DOMAIN-SUFFIX,restud.com
-
-
-
