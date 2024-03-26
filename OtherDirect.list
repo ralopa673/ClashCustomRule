@@ -1,0 +1,29 @@
+# Other direct connection
+#@ 2024年3月26日
+DOMAIN-SUFFIX,edu.cn
+## 内网穿透
+PROCESS-NAME,tailscale
+PROCESS-NAME,tailscaled
+PROCESS-NAME,zerotier
+DOMAIN-SUFFIX,tailscale.com
+DOMAIN-SUFFIX,tailscale.io
+DOMAIN-SUFFIX,todesk.com
+DOMAIN-SUFFIX,oray.com
+DOMAIN-SUFFIX,parsec.app
+DOMAIN-SUFFIX,test-ipv6.com
+DOMAIN-KEYWORD,apple-dns
+
+##软件源
+DOMAIN-SUFFIX,old-releases.ubuntu.com
+DOMAIN-SUFFIX,releases.ubuntu.com
+
+## 出版社
+DOMAIN-SUFFIX,nber.org
+SRC-IP-CIDR,23.185.0.1/32
+DOMAIN-SUFFIX,cambridge.org
+DOMAIN-SUFFIX,elsevier.com
+DOMAIN-SUFFIX,oup.com
+DOMAIN-KEYWORD,elsevier-erms
+DOMAIN-KEYWORD,sciencedirect
+DOMAIN-KEYWORD,tandfonline
+DOMAIN-KEYWORD,taylorandfrancis
