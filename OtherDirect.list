@@ -19,7 +19,7 @@ DOMAIN-SUFFIX,releases.ubuntu.com
 
 ## 出版社
 DOMAIN-SUFFIX,nber.org
-SRC-IP-CIDR,23.185.0.1/32
+SRC-IP-CIDR,23.185.0.1/32,no-resolve
 DOMAIN-SUFFIX,cambridge.org
 DOMAIN-SUFFIX,elsevier.com
 DOMAIN-SUFFIX,oup.com
