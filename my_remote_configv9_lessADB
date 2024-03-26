@@ -6,7 +6,8 @@
 ;v6 改变国外媒体、youtube的顺序，使其先于google等出现
 ; v6c, 加入tsumaniNet的花哨命名：港台+新加坡+日本+美国
 ; v6d, 把原本的apple测速，更换为Google测速
-; v8增加欧洲网站；v9增加北美学术,换回apple连通性测试
+; v8增加欧洲网站；
+;v9增加北美学术,换回apple连通性测试；OtherDirect.list【内网穿透、出版社等】
 
 ;去广告：支持
 ;自动测速：支持
@@ -72,6 +73,7 @@ ruleset=🍠 小红书,https://raw.githubusercontent.com/chinnsenn/ClashCustomRu
 ;ruleset=🕺 字节跳动,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/ByteDance.list
 
 ;EU必须放在[🚀 节点选择]的前面。因为DOMAIN-SUFFIX,EU/HK/JP/KR/SG/TW/UK/US/CA在里面。
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/master/OtherDirect.list
 ruleset=🇪🇺 欧洲网站,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/master/EUdomains.list
 ruleset=🎓 北美学术,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/master/NorthAmericanAcademics.list
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/proxies.list
