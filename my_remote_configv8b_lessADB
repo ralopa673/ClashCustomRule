@@ -69,6 +69,7 @@ ruleset=📰 微博,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/
 ;ruleset=💬 微信,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/wechat.list
 ruleset=🍠 小红书,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/XiaoHongShu.list
 ;ruleset=🕺 字节跳动,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/ByteDance.list
+ruleset=❤️ Emby公益服,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/master/EmbyServers.list
 
 ;EU必须放在[🚀 节点选择]的前面。因为DOMAIN-SUFFIX,EU/HK/JP/KR/SG/TW/UK/US/CA在里面。
 ruleset=🇪🇺 欧洲网站,[]GEOIP,EU
@@ -136,6 +137,7 @@ custom_proxy_group=🎥 Netflix`select`[]DIRECT`[]🚀 节点选择`[]🇭🇰 �
 ;custom_proxy_group=🎥 Disney+`select`[]DIRECT`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]🚀 手动切换`select`.*
 ;custom_proxy_group=📽️ PrimeVideo`select`[]DIRECT`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]🚀 手动切换`select`.*
 custom_proxy_group=🌍 国外媒体`select`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇸🇬 狮城auto`[]🇯🇵 日本auto`[]🇺🇲 美国auto`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=❤️ Emby公益服`select`[]DIRECT`[]🚀 节点选择`[]🚀 手动切换`select`.*
 
 custom_proxy_group=📹 YouTube`select`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]DIRECT`[]🚀 手动切换
 custom_proxy_group=🔍 Google`select`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]🚀 手动切换`select`.*
