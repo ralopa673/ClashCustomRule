@@ -126,8 +126,8 @@ custom_proxy_group=🇺🇲 美国auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=
 ;custom_proxy_group=🇰🇷 韩国auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:KR|Korea|KOR|首尔|韩|韓)).*$)`http://www.apple.com/library/test/success.html`300,100
 custom_proxy_group=💶 欧洲auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:DE|德|IT|UK|英|伦敦|意大利|瑞典|Sweden|Sverige|FR|法|巴黎|CH|瑞士|NL|荷兰|LU|卢森堡)).*$)`http://www.apple.com/library/test/success.html`300,100
 
-custom_proxy_group=🇪🇺 欧洲网站`select`[]🚀 节点选择`[]DIRECT`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`select`.*
-custom_proxy_group=🎓 北美学术`select`[]🚀 节点选择`[]DIRECT`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`select`.*
+custom_proxy_group=🇪🇺 欧洲网站`select`[]🚀 节点选择`[]💶 欧洲auto`[]🇸🇬 狮城auto`[]DIRECT`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`select`.*
+custom_proxy_group=🎓 北美学术`select`[]🚀 节点选择`[]🇺🇲 美国auto`[]🇭🇰 香港auto`[]DIRECT`[]💶 欧洲auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇨🇳 台湾auto`select`.*
 
 ;custom_proxy_group=📺 巴哈姆特`select`[]🇨🇳 台湾auto`[]🚀 节点选择`[]🚀 手动切换`[]DIRECT
 ;custom_proxy_group=🍑 DMMCOJP`select`[]🇯🇵 日本auto
