@@ -9,7 +9,7 @@
 ; v8增加欧洲网站；
 ;v9增加北美学术,换回apple连通性测试；OtherDirect.list【内网穿透、出版社等】
 ;; v9b，增加emby分流[❤️ Emby公益服]； bing默认设置为[🚀 节点选择]； Google Drive分流到[🌍 国外媒体]，便于走低倍率节点。
-;; v9c，增加欧洲节点[💶 欧洲auto]
+;; v9c，增加欧洲节点[💶 欧洲auto] ;; v9e，使用缩减规模后的EUdomains和NorthAmerican，以及更改北美网站和欧洲网站的默认节点
 
 ;去广告：支持
 ;自动测速：支持
