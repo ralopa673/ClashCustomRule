@@ -1,5 +1,5 @@
 # Other direct connection
-#@ 2024年3月26日
+#@ 2024年4月3日
 DOMAIN-SUFFIX,edu.cn
 ## 内网穿透
 PROCESS-NAME,tailscale
@@ -27,3 +27,6 @@ DOMAIN-KEYWORD,elsevier-erms
 DOMAIN-KEYWORD,sciencedirect
 DOMAIN-KEYWORD,tandfonline
 DOMAIN-KEYWORD,taylorandfrancis
+
+##软件认证
+DOMAIN-SUFFIX,duosecurity.com
