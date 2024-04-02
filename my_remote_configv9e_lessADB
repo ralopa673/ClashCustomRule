@@ -120,7 +120,8 @@ custom_proxy_group=📲 Telegram`select`[]🌍 国外媒体`[]🚀 节点选择`
 
 custom_proxy_group=🇭🇰 香港auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:港|香港|HongKong|HK|Hong Kong)).*$)`http://www.apple.com/library/test/success.html`300,100
 custom_proxy_group=🇨🇳 台湾auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:台|新北|彰化|澎湖|TW|Taiwan)).*$)`http://www.apple.com/library/test/success.html`300,100
-custom_proxy_group=🇸🇬 狮城auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:新加坡|坡|狮城|淡马|SG|Singapore)).*$)`http://www.apple.com/library/test/success.html`300,100
+;custom_proxy_group=🇸🇬 狮城auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:新加坡|坡|狮城|淡马|SG|Singapore)).*$)`http://www.apple.com/library/test/success.html`300,100
+custom_proxy_group=🇸🇬 狮城auto`select`(新加坡|坡|狮城|淡马|SG|Singapore)
 ;custom_proxy_group=🇯🇵 日本auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:日本|川日|东京|大阪|泉日|埼玉|沪日|深日|霓虹|JP|Japan)).*$)`http://www.apple.com/library/test/success.html`300,100
 custom_proxy_group=🇯🇵 日本auto`select`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|霓虹|JP|Japan)
 ;custom_proxy_group=🇺🇲 美国auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:美|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|洛城|SJC|United States|(?<![a-zA-Z])US(?![a-zA-Z])|(?<![a-zA-Z])USA(?![a-zA-Z])|(?<![a-zA-Z])USD(?![a-zA-Z]))).*$)`http://www.apple.com/library/test/success.html`300,,150
