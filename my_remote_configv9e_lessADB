@@ -146,7 +146,7 @@ custom_proxy_group=Ⓜ️ 微软云盘`select`[]DIRECT`[]🚀 节点选择`[]�
 custom_proxy_group=Ⓜ️ 微软服务`select`[]DIRECT`[]🚀 节点选择`[]🚀 手动切换
 custom_proxy_group=🍎 苹果服务`select`[]DIRECT`[]🚀 节点选择`[]🚀 手动切换
 
-custom_proxy_group=📺 Bilibili`select`[]DIRECT`[]🚀 节点选择`[]🚀 手动切换
+custom_proxy_group=📺 Bilibili`select`[]DIRECT`[]🚀 节点选择`[]🚀 手动切换`select`.*
 custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]📺 Bilibili`[]🚀 节点选择`[]🚀 手动切换
 custom_proxy_group=📰 微博`select`[]DIRECT`[]📺 Bilibili`[]🚀 节点选择`[]🚀 手动切换
 custom_proxy_group=🍠 小红书`select`[]DIRECT`[]📺 Bilibili`[]REJECT`[]🚀 手动切换
