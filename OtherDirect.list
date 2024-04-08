@@ -1,4 +1,4 @@
-# Other direct connection
+vvvvvvvvvvvvvv# Other direct connection
 #@ 2024年4月3日
 DOMAIN-SUFFIX,edu.cn
 ## 内网穿透
@@ -30,3 +30,4 @@ DOMAIN-KEYWORD,taylorandfrancis
 
 ##软件认证
 DOMAIN-SUFFIX,duosecurity.com
+DOMAIN-KEYWORD,alipan.com
