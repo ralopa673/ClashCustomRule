@@ -1,5 +1,5 @@
 # EmbyServers
-# 2024年4月3日
+# 2024年4月14日
 DOMAIN-SUFFIX,emby.nexitally.com
 DOMAIN-SUFFIX,emby.cjpc.cc
 DOMAIN-SUFFIX,emby.flowercloud.yt
@@ -79,12 +79,12 @@ DOMAIN-SUFFIX,shuipo.lol
 DOMAIN-SUFFIX,dicarerhome.com
 DOMAIN-SUFFIX,emby77.cf
 DOMAIN-SUFFIX,embyplus.org
-IP-CIDR,188.172.228.49/32
-IP-CIDR,202.61.255.248/32
+IP-CIDR,188.172.228.49/32,no-resolve
+IP-CIDR,202.61.255.248/32,no-resolve
+IP-CIDR,102.223.180.108/32,no-resolve
 DOMAIN-SUFFIX,embytv.cf
 DOMAIN-SUFFIX,zox.show
 DOMAIN-SUFFIX,acemby.org
-DOMAIN-SUFFIX,bili.rip
 DOMAIN-SUFFIX,ju.dog
 DOMAIN-SUFFIX,misty.ltd
 DOMAIN-SUFFIX,ednovas.org
@@ -133,4 +133,11 @@ DOMAIN-KEYWORD,embyvip
 DOMAIN-SUFFIX,theatre-backend.tsunaminet.cc
 DOMAIN-SUFFIX,theatre.tsunaminet.cc
 DOMAIN-SUFFIX,emby.cn2gias.uk
-DOMAIN-SUFFIX,emby.flowercloud.yt
+DOMAIN-SUFFIX,src-emby.cn2gias.uk
+DOMAIN-SUFFIX,cdn.lyrebirdemby.com
+DOMAIN-SUFFIX,e.niceduck.me
+DOMAIN-SUFFIX,bili.bili.rip
+DOMAIN-SUFFIX,ntrrr.am.sb
+DOMAIN-SUFFIX,stream.synn.cc
+DOMAIN-SUFFIX,stream.ntrrr.top
+DOMAIN-SUFFIX,stream-zz.synn.cc
