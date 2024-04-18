@@ -5,6 +5,8 @@ DOMAIN-SUFFIX,edu.cn
 PROCESS-NAME,tailscale
 PROCESS-NAME,tailscaled
 PROCESS-NAME,zerotier
+PROCESS-NAME,alist
+PROCESS-NAME,aria2
 DOMAIN-SUFFIX,tailscale.com
 DOMAIN-SUFFIX,tailscale.io
 DOMAIN-SUFFIX,todesk.com
