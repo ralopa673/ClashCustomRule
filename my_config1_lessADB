@@ -185,21 +185,21 @@ rename=!!GROUP=Tsunami!!^@TN-
 
 ;Options for adding emojis
 ;add_emoji=true
-remove_old_emoji=false
+;remove_old_emoji=true
 ;emoji=(流量|时间|应急),🏳️‍🌈
-emoji=(葡京|MO),🇲🇴
-emoji=(吕宋|PH),🇵🇭
-emoji=(九区|ZA),🇿🇦
-emoji=(阿根廷|潘鹰|AR),🇦🇷
-emoji=(奈拉NG),🇳🇬
-emoji=(主体|KP),🇰🇵
-emoji=(哈法|AE),🇦🇪
+;emoji=(葡京|MO),🇲🇴
+;emoji=(吕宋|PH),🇵🇭
+;emoji=(九区|ZA),🇿🇦
+;emoji=(阿根廷|潘鹰|AR),🇦🇷
+;emoji=(奈拉NG),🇳🇬
+;emoji=(主体|KP),🇰🇵
+;emoji=(哈法|AE),🇦🇪
 
 ;Options for renaming nodes
 ;rename=Test-(.*?)-(.*?)-(.*?)\((.*?)\)@\1\4x测试线路_自\2到\3
 ;rename=\(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
-rename=\(实验性\s\)?@$2️⃣
-rename=\(标准\s\)?@$🅰
-rename=\(高级\s\)?@$🌟
-rename=\(IEPL\s\)?@$PL
-rename=\(IPLC\s\)?@$LC
+;rename=\(实验性\s\)?@$2️⃣  下面的都没效果
+;rename=\(标准\s\)?@$🅰
+;rename=\(高级\s\)?@$🌟
+;rename=\(IEPL\s\)?@$PL
+;rename=\(IPLC\s\)?@$LC
