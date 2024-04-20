@@ -1,5 +1,5 @@
-vvvvvvvvvvvvvv# Other direct connection
-#@ 2024年4月3日
+# Other direct connection
+#@ 2024年4月21日
 DOMAIN-SUFFIX,edu.cn
 ## 内网穿透
 PROCESS-NAME,tailscale
@@ -18,6 +18,8 @@ DOMAIN-KEYWORD,apple-dns
 ##软件源
 DOMAIN-SUFFIX,old-releases.ubuntu.com
 DOMAIN-SUFFIX,releases.ubuntu.com
+DOMAIN-SUFFIX,devapi.qweather.com
+DOMAIN-SUFFIX,right.com.cn
 
 ## 出版社
 DOMAIN-SUFFIX,nber.org
@@ -33,3 +35,4 @@ DOMAIN-KEYWORD,taylorandfrancis
 ##软件认证
 DOMAIN-SUFFIX,duosecurity.com
 DOMAIN-KEYWORD,alipan.com
+
