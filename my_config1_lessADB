@@ -55,11 +55,6 @@ ruleset=📺 Bilibili,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/C
 ruleset=🌏 国内媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
 ruleset=🌍 国外媒体,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/ProxyMedia.list
 
-;EU必须放在[🚀 节点选择]的前面。因为DOMAIN-SUFFIX,EU/HK/JP/KR/SG/TW/UK/US/CA在里面。
-ruleset=🇪🇺 欧洲网站,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/master/EUdomainsR.list
-ruleset=🎓 北美学术,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/master/NorthAmericanAcademicsR.list
-ruleset=🚀 节点选择,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/proxies.list
-
 ruleset=📰 微博,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/weibo.list
 ;ruleset=💬 微信,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/wechat.list
 ruleset=🍠 小红书,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/XiaoHongShu.list
@@ -87,6 +82,11 @@ ruleset=Ⓜ️ 微软云盘,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/ma
 ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
 ruleset=🍎 苹果服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
 ruleset=❤️ Emby公益服,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/master/EmbyServers.list
+;EU必须放在[🚀 节点选择]的前面。因为DOMAIN-SUFFIX,EU/HK/JP/KR/SG/TW/UK/US/CA在里面。
+ruleset=🇪🇺 欧洲网站,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/master/EUdomainsR.list
+ruleset=🎓 北美学术,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/master/NorthAmericanAcademicsR.list
+; 节点选择必须在Onedrive后面
+ruleset=🚀 节点选择,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/proxies.list
 
 ruleset=🎯 全球直连,[]GEOIP,CN
 ruleset=🐟 漏网之鱼,[]FINAL
