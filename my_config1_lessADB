@@ -184,8 +184,8 @@ rename=!!GROUP=Suya!!^@Suya-
 rename=!!GROUP=Tsunami!!^@TN-
 
 ;Options for adding emojis
-add_emoji=true
-;remove_old_emoji=true
+;add_emoji=true
+remove_old_emoji=false
 ;emoji=(流量|时间|应急),🏳️‍🌈
 emoji=(葡京|MO),🇲🇴
 emoji=(吕宋|PH),🇵🇭
