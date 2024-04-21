@@ -10,7 +10,7 @@
 ;v9增加北美学术,换回apple连通性测试；OtherDirect.list【内网穿透、出版社等】
 ;; v9b，增加emby分流[❤️ Emby公益服]； bing默认设置为[🚀 节点选择]； Google Drive分流到[🌍 国外媒体]，便于走低倍率节点。
 ;; v9c，增加欧洲节点[💶 欧洲auto] ;; v9e，使用缩减规模后的EUdomains和NorthAmerican，以及更改北美网站和欧洲网站的默认节点
-;v10, 根据2024-04月chinnsen的my_remote_config规则重新改
+;v10, 根据2024-04月chinnsen的my_remote_config规则重新改; 加入twitter并合并到[🎵 TikTok]
 
 ;去广告：支持
 ;自动测速：支持
@@ -21,6 +21,7 @@
 
 ;设置规则标志位 START [有先后顺序]
 ruleset=📲 Telegram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+ruleset=🎵 TikTok,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitter/Twitter.list
 ruleset=🎮 游戏平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list
 ruleset=🎮 游戏平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list
 ruleset=🎮 游戏平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
