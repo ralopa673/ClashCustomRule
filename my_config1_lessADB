@@ -73,8 +73,8 @@ ruleset=🍃 应用净化,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/mast
 ;ruleset=🆎 AdBlock,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list
 ruleset=🆎 AdBlock,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
 ruleset=🆎 AdBlock,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/ad.list
-;隐私防护有3.2w条
-;ruleset=🛡️ 隐私防护,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list
+;[🛡️ 隐私防护]有3.2w条, 2024-04-21改名为[🆎 AdBlock]
+ruleset=🆎 AdBlock,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list
 ruleset=📢 谷歌FCM,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
 
