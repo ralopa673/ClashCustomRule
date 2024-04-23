@@ -1,6 +1,8 @@
 # Other direct connection
-#@ 2024年4月21日
+#@ 2024年4月23日
 DOMAIN-SUFFIX,edu.cn
+DOMAIN-SUFFIX,speedtest.im
+
 ## 内网穿透
 PROCESS-NAME,tailscale
 PROCESS-NAME,tailscaled
