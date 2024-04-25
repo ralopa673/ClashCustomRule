@@ -1,7 +1,7 @@
-# 更新时间 2024年4月1日
+# 更新时间 2024年4月25日 加入sms-activate.org
 #缩减条目
-
 #North-American Academics
+DOMAIN-SUFFIX,sms-activate.org
 DOMAIN-SUFFIX,doi.org
 DOMAIN-SUFFIX,imf.org
 DOMAIN-SUFFIX,editorialmanager.com
