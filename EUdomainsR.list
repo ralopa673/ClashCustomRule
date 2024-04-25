@@ -1,10 +1,16 @@
 # NAME: EUdomains
-# 2024年4月1日 缩减条目
+# 2024年4月25日 增加ifo.de; sciencespo.fr等
 ## 欧洲学术
 DOMAIN-SUFFIX,qs.com
 DOMAIN-SUFFIX,timeshighereducation.com
 DOMAIN-SUFFIX,eeassoc.org
 DOMAIN-SUFFIX,cepii.fr
+DOMAIN-SUFFIX,ifo.de
+DOMAIN-SUFFIX,sachverstaendigenrat-wirtschaft.de
+DOMAIN-SUFFIX,qucosa.de
+DOMAIN-SUFFIX,tu-dresden.de
+DOMAIN-SUFFIX,zew.de
+DOMAIN-SUFFIX,ipe-berlin.org
 DOMAIN-SUFFIX,uvt.nl
 DOMAIN-SUFFIX,org.uk
 DOMAIN-SUFFIX,restud.com
@@ -67,6 +73,7 @@ DOMAIN-SUFFIX,ex.ac.uk
 DOMAIN-SUFFIX,cardiff.ac.uk
 DOMAIN-SUFFIX,york.ac.uk
 DOMAIN-SUFFIX,au.dk
+DOMAIN-SUFFIX,cbs.dk
 DOMAIN-SUFFIX,bath.ac.uk
 DOMAIN-SUFFIX,ub.es
 DOMAIN-SUFFIX,ucd.ie
@@ -75,6 +82,8 @@ DOMAIN-SUFFIX,tuwien.ac.at
 DOMAIN-SUFFIX,utwente.nl
 DOMAIN-SUFFIX,liv.ac.uk
 DOMAIN-SUFFIX,tu-dresden.de
+DOMAIN-SUFFIX,tum.de
+DOMAIN-SUFFIX,berlinschoolofeconomics.de
 DOMAIN-SUFFIX,huji.ac.il
 DOMAIN-SUFFIX,uib.no
 DOMAIN-SUFFIX,rdg.ac.uk
@@ -158,6 +167,7 @@ DOMAIN-SUFFIX,victoria-uni.ch
 DOMAIN-SUFFIX,ulst.ac.uk
 DOMAIN-SUFFIX,hull.ac.uk
 DOMAIN-SUFFIX,uni-rostock.de
+DOMAIN-SUFFIX,iza.org
 DOMAIN-SUFFIX,pte.hu
 DOMAIN-SUFFIX,ulster.ac.uk
 DOMAIN-SUFFIX,uoc.gr
@@ -222,6 +232,7 @@ DOMAIN-SUFFIX,escp.eu
 DOMAIN-SUFFIX,escp.fr
 DOMAIN-SUFFIX,hec.fr
 DOMAIN-SUFFIX,hec.edu
+DOMAIN-SUFFIX,sciencespo.fr
 DOMAIN-SUFFIX,grenoble-inp.fr
 DOMAIN-SUFFIX,polytechnique.fr
 DOMAIN-SUFFIX,polytechnique.edu
