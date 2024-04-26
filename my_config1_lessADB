@@ -190,16 +190,25 @@ rename=!!GROUP=Suya!!^@Suya-
 rename=!!GROUP=Tsunami!!^@TN-
 
 ;Options for adding emojis
-;add_emoji=true
-;remove_old_emoji=true
+add_emoji=true
+remove_old_emoji=true
 ;emoji=(流量|时间|应急),🏳️‍🌈
-;emoji=(葡京|MO),🇲🇴
-;emoji=(吕宋|PH),🇵🇭
-;emoji=(九区|ZA),🇿🇦
-;emoji=(阿根廷|潘鹰|AR),🇦🇷
-;emoji=(奈拉NG),🇳🇬
-;emoji=(主体|KP),🇰🇵
-;emoji=(哈法|AE),🇦🇪
+emoji=(TW[0-9][0-9]),🇨🇳
+emoji=(MO),🇲🇴
+emoji=(HK[0-9][0-9]),🇭🇰 
+emoji=(SG[0-9][0-9]),🇸🇬
+emoji=(JP[0-9][0-9]),🇯🇵
+emoji=(US[0-9][0-9]),🇺🇲 
+emoji=(Korea),🇰🇷
+emoji=(Vietnam),🇻🇳
+emoji=(DE),🇩🇪
+emoji=(Ukraine),🇺🇦
+emoji=(UK|England|Britain|GB),🇬🇧
+emoji=(Madrid|Spain),🇪🇸
+emoji=(Nigeria),🇳🇬
+emoji=(TR),🇹🇷
+emoji=(AE),🇦🇪
+emoji=(Pakistan),🇵🇰
 
 ;Options for renaming nodes
 ;rename=Test-(.*?)-(.*?)-(.*?)\((.*?)\)@\1\4x测试线路_自\2到\3
