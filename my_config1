@@ -176,7 +176,7 @@ custom_proxy_group=🆎 AdBlock`select`[]REJECT`[]DIRECT
 
 
 ;enable_rule_generator=true
-;overwrite_original_rules=true
+overwrite_original_rules=true
 ;skip_failed_links=true
 
 ;clash_rule_base=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GeneralClashConfig.yml
