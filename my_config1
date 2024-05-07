@@ -174,8 +174,9 @@ custom_proxy_group=🆎 AdBlock`select`[]REJECT`[]DIRECT
 ;custom_proxy_group=🇺🇲 美国节点`select`(美|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|SJC|United States|(?<![a-zA-Z])US(?![a-zA-Z])|(?<![a-zA-Z])USA(?![a-zA-Z])|(?<![a-zA-Z])USD(?![a-zA-Z]))
 ;custom_proxy_group=🇬🇧 英国节点`select`(UK|英|伦敦)
 
-enable_rule_generator=true
-overwrite_original_rules=true
+
+;enable_rule_generator=true
+;overwrite_original_rules=true
 ;skip_failed_links=true
 
 ;clash_rule_base=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GeneralClashConfig.yml
