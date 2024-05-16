@@ -107,7 +107,7 @@ custom_proxy_group=🔯 故障转移`fallback`.*`http://www.apple.com/library/te
 custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]♻️ 自动选择`[]DIRECT`[]🇸🇬 狮城auto`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇺🇲 美国auto`select`.*
 ;custom_proxy_group=🎼 Spotify`select`[]DIRECT`[]🚀 节点选择`[]♻️ 自动选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]🚀 手动切换
 
-custom_proxy_group=🤖 OpenAI`select`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇨🇳 台湾auto`[]💶 欧洲auto`[]DIRECT`(^(?!.*(?:实验))(日本|Japan|JP|美|US|United States|加拿大|Canada|CA|台湾|Taiwan|TW|德国|Germany|DE|荷兰|Netherland|NL|法国|France|FR|英国|England|UK|GB|Britain).*$)
+custom_proxy_group=🤖 OpenAI`select`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇨🇳 台湾auto`[]💶 欧洲auto`[]DIRECT`(日本|Japan|JP|美|US|United States|加拿大|Canada|CA|台湾|Taiwan|TW|德国|Germany|DE|荷兰|Netherland|NL|法国|France|FR|英国|England|UK|GB|Britain)
 custom_proxy_group=🤖 Bing`select`[]🤖 OpenAI`[]🚀 节点选择`[]DIRECT`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇨🇳 台湾auto`[]💶 欧洲auto
 custom_proxy_group=🤖 DeepL`select`[]🤖 OpenAI`[]DIRECT`[]🤖 Bing`[]🚀 节点选择
 ;custom_proxy_group=🤖 Anthropic`select`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]🚀 手动切换
