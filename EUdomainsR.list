@@ -1,8 +1,10 @@
 # NAME: EUdomains
-# 2024年4月25日 增加ifo.de; sciencespo.fr等
+# 2024年5月17日 增加oecdcode.org等
 ## 欧洲学术
 DOMAIN-SUFFIX,qs.com
 DOMAIN-SUFFIX,timeshighereducation.com
+DOMAIN-SUFFIX,oecdcode.org
+DOMAIN-SUFFIX,oecd-ilibrary.org
 DOMAIN-SUFFIX,eeassoc.org
 DOMAIN-SUFFIX,cepii.fr
 DOMAIN-SUFFIX,ifo.de
