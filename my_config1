@@ -107,7 +107,7 @@ custom_proxy_group=🔯 故障转移`fallback`(^(?!.*(?:高级|实验|0\.\d+\s?(
 custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]♻️ 自动选择`[]DIRECT`[]🇸🇬 狮城auto`[]🇭🇰 香港auto`[]🇯🇵 日本auto`(^(?!.*(?:高级)).*$)
 ;custom_proxy_group=🎼 Spotify`select`[]DIRECT`[]🚀 节点选择`[]♻️ 自动选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]🚀 手动切换
 
-custom_proxy_group=🤖 OpenAI`select`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇨🇳 台湾auto`[]💶 欧洲auto`[]DIRECT`(^(?!.*(?:高级|实验))(?=.*(?:日本|Japan|JP|美|US|[Ss]tates|加拿大|Canada|CA|台湾|Taiwan|TW|德国|Germany|DE|荷兰|Netherland|NL|法国|France|FR|英国|England|UK|GB|Britain|澳大利亚|Austr|以色列|Israel)).*$)
+custom_proxy_group=🤖 OpenAI`select`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇨🇳 台湾auto`[]💶 欧洲auto`[]DIRECT`(^(?!.*(?:高级|实验))(?=.*(?:日本|Japan|JP|美|US|[Ss]tates|加拿大|Canada|CA|台湾|Taiwan|TW|德国|Germany|DE|荷兰|Netherland|NL|英国|England|UK|GB|Britain|澳大利亚|Austr|以色列|Israel)).*$)
 custom_proxy_group=🤖 Bing`select`[]🤖 OpenAI`[]🚀 节点选择`[]DIRECT`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇨🇳 台湾auto`[]💶 欧洲auto
 custom_proxy_group=🤖 DeepL`select`[]🤖 OpenAI`[]DIRECT`[]🤖 Bing`[]🚀 节点选择
 ;custom_proxy_group=🤖 Anthropic`select`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]🚀 手动切换
@@ -116,7 +116,7 @@ custom_proxy_group=🎵 TikTok`select`[]DIRECT`[]🚀 节点选择`[]🇨🇳 �
 custom_proxy_group=🎥 Netflix`select`[]DIRECT`[]🎵 TikTok`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]🚀 手动切换
 ;custom_proxy_group=🎥 Disney+`select`[]DIRECT`[]🎵 TikTok`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]🚀 手动切换`select`.*
 ;custom_proxy_group=📽️ PrimeVideo`select`[]DIRECT`[]🎵 TikTok`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]🚀 手动切换`select`.*
-custom_proxy_group=🌍 国外媒体`select`[]🚀 节点选择`[]DIRECT`(实验|低倍率|0\.\d+\s?(倍|x|X|×))`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇸🇬 狮城auto`[]🇯🇵 日本auto`[]🇺🇲 美国auto
+custom_proxy_group=🌍 国外媒体`select`(实验|低倍率|0\.\d+\s?(倍|x|X|×))`[]DIRECT`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇸🇬 狮城auto`[]🇯🇵 日本auto`[]🇺🇲 美国auto
 custom_proxy_group=❤️ Emby公益服`select`[]🌍 国外媒体`[]DIRECT`(实验|低倍率|0\.\d+\s?(倍|x|X|×))`[]🚀 节点选择`[]🚀 手动切换
 
 custom_proxy_group=📹 YouTube`select`[]🌍 国外媒体`[]🚀 节点选择`[]DIRECT`[]🚀 手动切换
