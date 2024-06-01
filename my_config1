@@ -126,7 +126,7 @@ custom_proxy_group=❤️ Emby公益服`select`[]🌍 国外媒体`[]DIRECT`(实
 custom_proxy_group=📹 YouTube`select`[]🌍 国外媒体`[]🚀 节点选择`[]DIRECT`[]🚀 手动切换
 custom_proxy_group=🔍 Google`select`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]💶 欧洲auto`(^(?!.*(?:高级|实验)).*$)
 custom_proxy_group=📢 谷歌FCM`select`[]🔍 Google`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto
-custom_proxy_group=📲 Telegram`select`(^(?=.*(?:高级|实验))(?=.*(?:新加坡|淡马|狮城|SG|Singapore)).*$)`(荷兰|Netherland|NL|德|DE|Germany)`[]🌍 国外媒体`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇸🇬 狮城auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇺🇲 美国auto`[]💶 欧洲auto`[]🚀 手动切换
+custom_proxy_group=📲 Telegram`select`(^(?=.*(?:高级|实验|0))(?=.*(?:新加坡|淡马|狮城|SG|Singapore)).*$)`(荷兰|Netherland|NL|德|DE|Germany)`[]🌍 国外媒体`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇸🇬 狮城auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇺🇲 美国auto`[]💶 欧洲auto`[]🚀 手动切换
 custom_proxy_group=✖️ 推特&SMSs`select`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]💶 欧洲auto`[]🚀 手动切换`select`.*
 
 custom_proxy_group=🇭🇰 香港auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:港|香港|HongKong|HK|Hong Kong))(?!.*(?:高级|实验)).*$)`http://www.apple.com/library/test/success.html`300,100
