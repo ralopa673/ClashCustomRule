@@ -4,6 +4,10 @@
 DOMAIN-SUFFIX,sms-activate.org
 DOMAIN-SUFFIX,doi.org
 DOMAIN-SUFFIX,imf.org
+#DOMAIN-SUFFIX,data.imf.org #data.imf.org无CDN，仅安置在华盛顿DC
+DOMAIN-SUFFIX,data.worldbank.org
+#data.worldbank.org无CDN；但api.worldbank.org有Anycast/Cloudflare.com
+DOMAIN-SUFFIX,api.worldbank.org
 DOMAIN-SUFFIX,editorialmanager.com
 DOMAIN-SUFFIX,weebly.com
 DOMAIN-SUFFIX,cepr.org
