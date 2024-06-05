@@ -1,13 +1,13 @@
-# 更新时间 2024年6月6日 加入世界银行
+# 更新时间 2024年6月6日 加入世界银行 走日本更快
 #缩减条目
 #North-American Academics
 DOMAIN-SUFFIX,sms-activate.org
 DOMAIN-SUFFIX,doi.org
 DOMAIN-SUFFIX,imf.org
 #DOMAIN-SUFFIX,data.imf.org #data.imf.org无CDN，仅安置在华盛顿DC
-DOMAIN-SUFFIX,data.worldbank.org
+#DOMAIN-SUFFIX,data.worldbank.org
 #data.worldbank.org无CDN；但api.worldbank.org有Anycast/Cloudflare.com
-DOMAIN-SUFFIX,api.worldbank.org
+#DOMAIN-SUFFIX,api.worldbank.org
 DOMAIN-SUFFIX,editorialmanager.com
 DOMAIN-SUFFIX,weebly.com
 DOMAIN-SUFFIX,cepr.org
