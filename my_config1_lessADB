@@ -198,12 +198,13 @@ rename=!!GROUP=Tsunami!!^@TN-
 add_emoji=true
 remove_old_emoji=true
 ;emoji=(流量|时间|应急),🏳️‍🌈
-emoji=(TW[0-9][0-9]),🇨🇳
+emoji=(TW[0-9][0-9]),🇹🇼
 emoji=(MO),🇲🇴
 emoji=(HK[0-9][0-9]),🇭🇰 
 emoji=(SG[0-9][0-9]),🇸🇬
 emoji=(JP[0-9][0-9]),🇯🇵
 emoji=(US[0-9][0-9]),🇺🇲 
+emoji=(SJC[0-9][0-9]),🇺🇲 
 emoji=(Korea),🇰🇷
 emoji=(Vietnam),🇻🇳
 emoji=(DE),🇩🇪
