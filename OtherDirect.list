@@ -1,5 +1,6 @@
 # Other direct connection
 #@ 2024年4月23日
+#@ 2024年6月9日 添加web of science、jstor等
 DOMAIN-SUFFIX,edu.cn
 DOMAIN-SUFFIX,speedtest.im
 
@@ -24,15 +25,23 @@ DOMAIN-SUFFIX,devapi.qweather.com
 DOMAIN-SUFFIX,right.com.cn
 
 ## 出版社
+DOMAIN-SUFFIX,clarivate.com
+DOMAIN-KEYWORD,webofscience
+#NBER
 DOMAIN-SUFFIX,nber.org
 IP-CIDR,23.185.0.1/32,no-resolve
-DOMAIN-SUFFIX,cambridge.org
+#Elsevier
 DOMAIN-SUFFIX,elsevier.com
-DOMAIN-SUFFIX,oup.com
 DOMAIN-KEYWORD,elsevier-erms
 DOMAIN-KEYWORD,sciencedirect
+DOMAIN-SUFFIX,cambridge.org
+DOMAIN-SUFFIX,oup.com
 DOMAIN-KEYWORD,tandfonline
 DOMAIN-KEYWORD,taylorandfrancis
+DOMAIN-SUFFIX,ebsco.com
+#jstor
+DOMAIN-SUFFIX,ithaka.org
+DOMAIN-SUFFIX,jstor.org
 
 ##软件认证
 DOMAIN-SUFFIX,duosecurity.com
