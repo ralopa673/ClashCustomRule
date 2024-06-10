@@ -1,20 +1,23 @@
 # Other direct connection
 #@ 2024年4月23日
 #@ 2024年6月9日 添加web of science、jstor等
+#@ 2024年6月10日  增加todesk、parsec的PROCESS-NAMEs
 DOMAIN-SUFFIX,edu.cn
 DOMAIN-SUFFIX,speedtest.im
 
 ## 内网穿透
 PROCESS-NAME,tailscale
 PROCESS-NAME,tailscaled
+DOMAIN-SUFFIX,tailscale.com
+DOMAIN-SUFFIX,tailscale.io
 PROCESS-NAME,zerotier
 PROCESS-NAME,alist
 PROCESS-NAME,aria2
-DOMAIN-SUFFIX,tailscale.com
-DOMAIN-SUFFIX,tailscale.io
+PROCESS-NAME,parsec
+DOMAIN-SUFFIX,parsec.app
+PROCESS-NAME,todesk
 DOMAIN-SUFFIX,todesk.com
 DOMAIN-SUFFIX,oray.com
-DOMAIN-SUFFIX,parsec.app
 DOMAIN-SUFFIX,test-ipv6.com
 DOMAIN-KEYWORD,apple-dns
 
