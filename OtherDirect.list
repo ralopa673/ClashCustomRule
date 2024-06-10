@@ -13,9 +13,9 @@ DOMAIN-SUFFIX,tailscale.io
 PROCESS-NAME,zerotier
 PROCESS-NAME,alist
 PROCESS-NAME,aria2
-PROCESS-NAME,parsec
+#PROCESS-NAME,parsec
 DOMAIN-SUFFIX,parsec.app
-PROCESS-NAME,todesk
+#PROCESS-NAME,todesk
 DOMAIN-SUFFIX,todesk.com
 DOMAIN-SUFFIX,oray.com
 DOMAIN-SUFFIX,test-ipv6.com
