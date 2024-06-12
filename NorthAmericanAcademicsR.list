@@ -2,6 +2,7 @@
 #缩减条目
 #North-American Academics
 DOMAIN-SUFFIX,sms-activate.org
+DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,doi.org
 DOMAIN-SUFFIX,imf.org
 #DOMAIN-SUFFIX,data.imf.org #data.imf.org无CDN，仅安置在华盛顿DC
