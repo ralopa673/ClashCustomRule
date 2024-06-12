@@ -2,7 +2,7 @@
 #@ 2024年4月23日
 #@ 2024年6月9日 添加web of science、jstor等
 #@ 2024年6月10日  增加todesk、parsec的PROCESS-NAMEs
-#@ 2024年6月12日 添加BVD等
+#@ 2024年6月12日 添加webofscience, IEEE, BVD等
 DOMAIN-SUFFIX,edu.cn
 DOMAIN-SUFFIX,speedtest.im
 
@@ -51,6 +51,10 @@ DOMAIN-SUFFIX,emerald.com
 #jstor
 DOMAIN-SUFFIX,ithaka.org
 DOMAIN-SUFFIX,jstor.org
+#IEEE
+DOMAIN-SUFFIX,computer.org
+DOMAIN-SUFFIX,ieeecomputer.org
+DOMAIN-SUFFIX,ieee.org
 
 #数据库
 DOMAIN-SUFFIX,worldlib.net
