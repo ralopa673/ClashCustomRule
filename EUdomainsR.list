@@ -1,5 +1,6 @@
 # NAME: EUdomains
 # 2024年6月7日 增加opera.com等
+# @日期 增加个别协会和authorities
 DOMAIN-SUFFIX,apkpure.com
 DOMAIN-SUFFIX,winudf.com
 DOMAIN-SUFFIX,opera.com
@@ -10,6 +11,7 @@ DOMAIN-SUFFIX,timeshighereducation.com
 DOMAIN-SUFFIX,oecdcode.org
 DOMAIN-SUFFIX,oecd-ilibrary.org
 DOMAIN-SUFFIX,eeassoc.org
+DOMAIN-SUFFIX,european-finance.org
 DOMAIN-SUFFIX,cepii.fr
 DOMAIN-SUFFIX,ifo.de
 DOMAIN-SUFFIX,sachverstaendigenrat-wirtschaft.de
@@ -30,12 +32,19 @@ DOMAIN-SUFFIX,vilniustech.lt
 DOMAIN-SUFFIX,vub.be
 DOMAIN-SUFFIX,nhh.no
 DOMAIN-SUFFIX,se
+GEOIP,ES
 GEOIP,CH
 GEOIP,SE
 GEOIP,NO
 GEOIP,LT
 GEOIP,BE
 GEOIP,AT
+
+# Authorities
+DOMAIN-SUFFIX,bundesbank.de
+DOMAIN-SUFFIX,suomenpankki.fi
+DOMAIN-SUFFIX,banque-france.fr
+DOMAIN-SUFFIX,bancaditalia.it
 
 #
 DOMAIN-SUFFIX,unibo.it
