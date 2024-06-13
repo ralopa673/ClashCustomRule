@@ -1,4 +1,5 @@
 # 更新时间 2024年6月6日 加入世界银行 走日本更快
+#@ 2024年6月13日 新增个别协会
 #缩减条目
 #North-American Academics
 DOMAIN-SUFFIX,sms-activate.org
@@ -17,6 +18,8 @@ DOMAIN-SUFFIX,afajof.org
 DOMAIN-SUFFIX,sfs.org
 DOMAIN-SUFFIX,ssrn.com
 DOMAIN-SUFFIX,repec.org
+DOMAIN-SUFFIX,amstat.org
+DOMAIN-SUFFIX,easternfinance.org
 DOMAIN-SUFFIX,westernfinance.org
 DOMAIN-SUFFIX,midwestfinance.org
 DOMAIN-SUFFIX,fma.org
