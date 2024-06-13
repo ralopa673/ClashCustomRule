@@ -10,6 +10,12 @@ DOMAIN-SUFFIX,imf.org
 #DOMAIN-SUFFIX,data.worldbank.org
 #data.worldbank.org无CDN；但api.worldbank.org有Anycast/Cloudflare.com
 #DOMAIN-SUFFIX,api.worldbank.org
+DOMAIN-SUFFIX,federalreserve.gov
+#只有圣路易有必要列出来。其他的feds域名不规则，丢漏网之鱼走日本即可。
+DOMAIN-SUFFIX,stlouisfed.org
+DOMAIN-SUFFIX,bankofcanada.ca
+
+#
 DOMAIN-SUFFIX,editorialmanager.com
 DOMAIN-SUFFIX,weebly.com
 DOMAIN-SUFFIX,cepr.org
