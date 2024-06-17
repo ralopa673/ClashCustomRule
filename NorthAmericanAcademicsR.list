@@ -26,7 +26,8 @@ DOMAIN-SUFFIX,cepr.org
 DOMAIN-SUFFIX,aeaweb.org
 DOMAIN-SUFFIX,afajof.org
 DOMAIN-SUFFIX,sfs.org
-DOMAIN-SUFFIX,ssrn.com
+#SSRN走cloudfare，不如丢给漏网之鱼走日本
+#DOMAIN-SUFFIX,ssrn.com
 DOMAIN-SUFFIX,repec.org
 DOMAIN-SUFFIX,amstat.org
 DOMAIN-SUFFIX,easternfinance.org
