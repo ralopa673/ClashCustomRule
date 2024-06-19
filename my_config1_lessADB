@@ -49,6 +49,7 @@ ruleset=🎥 Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Cl
 ruleset=🌪 Gitlab,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/Gitlab.list
 ruleset=🤖 OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list
 ruleset=🤖 Claude,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.list
+ruleset=🤖 Claude,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/anthropic.list
 ruleset=🤖 Claude,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/deepl.list
 ;ruleset=📈 IBKR,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/ibkr.list
 ;ruleset=👛 Wallet,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/wallet.list
