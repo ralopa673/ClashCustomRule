@@ -3,8 +3,10 @@
 #@ 2024年6月9日 添加web of science、jstor等
 #@ 2024年6月10日  增加todesk、parsec的PROCESS-NAMEs
 #@ 2024年6月12日 添加webofscience, wiley, IEEE, BVD等
+#@ 2024年6月26日 expreview.com
 DOMAIN-SUFFIX,edu.cn
 DOMAIN-SUFFIX,speedtest.im
+DOMAIN-SUFFIX,expreview.com
 
 ## 内网穿透
 PROCESS-NAME,tailscale
