@@ -48,6 +48,7 @@ ruleset=🎥 Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Cl
 
 ruleset=🌪 Gitlab,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/Gitlab.list
 ruleset=🌪 Gitlab,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Mozilla/Mozilla.list
+ruleset=🌪 Gitlab,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.list
 ruleset=🤖 OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list
 ruleset=🤖 Claude,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.list
 ruleset=🤖 Claude,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/anthropic.list
@@ -158,7 +159,7 @@ custom_proxy_group=🎓 北美学术`select`[]🇺🇲 美国auto`[]🇯🇵 日
 
 ;custom_proxy_group=📺 巴哈姆特`select`[]🇨🇳 台湾auto`[]🚀 节点选择`[]🚀 手动切换`[]DIRECT
 ;custom_proxy_group=🍑 DMMCOJP`select`[]🇯🇵 日本auto
-custom_proxy_group=🌪 Gitlab`select`[]DIRECT`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇸🇬 狮城auto`[]🇯🇵 日本auto`[]🇺🇲 美国auto`[]🚀 手动切换
+custom_proxy_group=🌪 Gitlab`select`[]🌍 国外媒体`[]DIRECT`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇸🇬 狮城auto`[]🇯🇵 日本auto`[]🇺🇲 美国auto`[]🚀 手动切换
 
 custom_proxy_group=🎮 游戏平台`select`[]DIRECT`[]🚀 节点选择`[]♻️ 自动选择`[]🇸🇬 狮城auto`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇺🇲 美国auto`[]🚀 手动切换
 ;custom_proxy_group=🎮 Nintendo`select`[]DIRECT`[]🚀 节点选择`[]♻️ 自动选择`[]🇸🇬 狮城auto`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇺🇲 美国auto`[]🚀 手动切换
