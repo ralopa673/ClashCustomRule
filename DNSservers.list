@@ -4,7 +4,7 @@
 IP-CIDR,8.8.8.8/32,no-resolve
 IP-CIDR,8.8.4.4/32,no-resolve
 
-# dns.sb | doh.sb  联通直连60ms，电信直连180ms
+# dns.sb | doh.sb  联通直连60ms，电信直连180ms ; 但是电信连https://doh.dns.sb/dns-query 只要60+ms
 DOMAIN-SUFFIX,dns.sb
 DOMAIN-SUFFIX,doh.sb
 IP-CIDR,185.222.222.222/32,no-resolve
