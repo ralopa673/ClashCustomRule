@@ -4,7 +4,7 @@
 IP-CIDR,8.8.8.8/32,no-resolve
 IP-CIDR,8.8.4.4/32,no-resolve
 
-# dns.sb | doh.sb
+# dns.sb | doh.sb  联通直连60ms，电信直连180ms
 DOMAIN-SUFFIX,dns.sb
 DOMAIN-SUFFIX,doh.sb
 IP-CIDR,185.222.222.222/32,no-resolve
@@ -12,13 +12,13 @@ IP-CIDR,45.11.45.11/32,no-resolve
 IP-CIDR6,2a09::/128,no-resolve
 IP-CIDR6,2a11::/128,no-resolve
 
-# Quad9 of IBM
+# Quad9 of IBM  电信直连230ms
 IP-CIDR,9.9.9.9/32,no-resolve
 IP-CIDR,149.112.112.112/32,no-resolve
 IP-CIDR6,2620:fe::fe/128,no-resolve
 IP-CIDR6,2620:fe::9/128,no-resolve
 
-# 101 from TW, 联通直连<50ms，但电信直连>200ms
+# 101 from TW, 联通直连<50ms，但电信直连90ms
 IP-CIDR,101.101.101.101/32,no-resolve 
 IP-CIDR,101.102.103.104/32,no-resolve
 IP-CIDR6,2001:de4::101/128,no-resolve
@@ -31,5 +31,15 @@ IP-CIDR,1.1.1.1/32,no-resolve
 # NextDNS
 DOMAIN-SUFFIX,nextdns.io
 
-# ip.sb / api-ipv4.ip.sb
+# ip.sb / api-ipv4.ip.sb  电信直连280ms
 DOMAIN-SUFFIX,ip.sb
+
+# jp.tiarap.org  电信直连 220ms
+DOMAIN-SUFFIX,tiarap.org
+DOMAIN-SUFFIX,tiar.app
+IP-CIDR,174.138.21.128/32,no-resolve 
+IP-CIDR,188.166.206.224/32,no-resolve
+IP-CIDR6,2400:6180:0:d0::5f6e:4001/128,no-resolve
+
+# https://public.dns.iij.jp/dns-query   电信直连80ms
+DOMAIN-SUFFIX,dns.iij.jp
