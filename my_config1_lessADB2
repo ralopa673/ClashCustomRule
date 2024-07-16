@@ -11,13 +11,14 @@
 ;; v9b，增加emby分流[❤️ Emby公益服]； bing默认设置为[🚀 节点选择]； Google Drive分流到[🌍 国外媒体]，便于走低倍率节点。
 ;; v9c，增加欧洲节点[💶 欧洲auto] ;; v9e，使用缩减规模后的EUdomains和NorthAmerican，以及更改北美网站和欧洲网站的默认节点
 ;v10, 根据2024-04月chinnsen的my_remote_config规则重新改; 加入twitter、line、WhatsApp、instagram，打包合并到[✖️ 推特&SMSs] 
+; 2024-07-16，增加DNS服务器: 🗄️ 常用DNS
 
 ;去广告：支持
 ;自动测速：支持
 ;微软分流：支持
 ;苹果分流：支持
 ;增强中国IP段：支持
-;增强国外GFW：支持 
+;增强国外GFW：支持
 
 ;设置规则标志位 START [有先后顺序]
 ruleset=📲 Telegram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
@@ -47,6 +48,7 @@ ruleset=🎥 Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Cl
 
 ruleset=🌪 Gitlab,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/Gitlab.list
 ruleset=🌪 Gitlab,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Mozilla/Mozilla.list
+ruleset=🌪 Gitlab,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.list
 ruleset=🤖 OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list
 ruleset=🤖 Claude,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.list
 ruleset=🤖 Claude,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/anthropic.list
@@ -101,6 +103,8 @@ ruleset=❤️ Emby公益服,https://raw.githubusercontent.com/ralopa673/ClashCu
 ;EU必须放在[🚀 节点选择]的前面。因为DOMAIN-SUFFIX,EU/HK/JP/KR/SG/TW/UK/US/CA在里面。
 ruleset=🇪🇺 欧洲网站,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/master/EUdomainsR.list
 ruleset=🎓 北美学术,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/master/NorthAmericanAcademicsR.list
+#DNS最好放在🚀 节点选择前面，不然nextDNS会被`节点选择`匹配
+ruleset=🗄️ 常用DNS,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/master/DNSservers.list
 ; 节点选择必须在Onedrive后面
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/proxies.list
 
@@ -118,6 +122,8 @@ custom_proxy_group=🔯 故障转移`fallback`(^(?!.*(?:高级|实验|0\.\d+\s?(
 custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]♻️ 自动选择`[]DIRECT`[]🇸🇬 狮城auto`[]🇭🇰 香港auto`[]🇯🇵 日本auto`(^(?!.*(?:高级)).*$)
 ;custom_proxy_group=🎼 Spotify`select`[]DIRECT`[]🚀 节点选择`[]♻️ 自动选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]🚀 手动切换
 
+custom_proxy_group=🗄️ 常用DNS`select`[]🚀 节点选择`[]DIRECT`[]🇭🇰 香港auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]💶 欧洲auto`[]🇨🇳 台湾auto`(^(?!.*(?:实验|0\.\d+\s?(倍|x|X|×)))(?=.*(?:香港|HK|Hong|日本|Japan|JP|新加坡|狮城|Singapore|美|US|[Ss]tates|加拿大|Canada|CA|台湾|Taiwan|TW|德国|Germany|DE|荷兰|Netherland|NL|英国|England|UK|GB|Britain|Kingdom)).*$)
+
 custom_proxy_group=🤖 OpenAI`select`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇨🇳 台湾auto`[]💶 欧洲auto`(^(?!.*(?:高级|实验))(?=.*(?:日本|Japan|JP|美|US|[Ss]tates|加拿大|Canada|CA|台湾|Taiwan|TW|德国|Germany|DE|荷兰|Netherland|NL|英国|England|UK|GB|Britain|澳大利亚|Austr|以色列|Israel)).*$)
 custom_proxy_group=🤖 Copilot`select`[]🇭🇰 香港auto`[]🚀 节点选择`[]DIRECT`[]🤖 OpenAI`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇨🇳 台湾auto`[]💶 欧洲auto
 custom_proxy_group=🤖 Claude`select`[]REJECT`[]🤖 OpenAI`[]🤖 Copilot`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇨🇳 台湾auto`[]💶 欧洲auto`(^(?!.*(?:高级|实验|低倍率|0\.\d+\s?(倍|x|X|×)))(?=.*(?:日本|Japan|JP|美|US|[Ss]tates|加拿大|Canada|CA|台湾|Taiwan|TW|新加坡|狮城|Singapore|SG|德国|Germany|DE|荷兰|Netherland|NL|英国|England|UK|GB|Britain|United/s?Kingdom|London|澳大利亚|Austr)).*$)
@@ -131,13 +137,13 @@ custom_proxy_group=🌍 国外媒体`select`(实验|低倍率|0\.\d+\s?(倍|x|X|
 custom_proxy_group=❤️ Emby公益服`select`[]🌍 国外媒体`[]DIRECT`(实验|低倍率|0\.\d+\s?(倍|x|X|×))`[]🚀 节点选择`[]🚀 手动切换
 
 custom_proxy_group=📹 YouTube`select`[]🌍 国外媒体`[]🚀 节点选择`[]DIRECT`[]🚀 手动切换
-custom_proxy_group=🔍 Google`select`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]💶 欧洲auto`((?=.*(?:台|新北|彰化|澎湖|TW|Taiwan))(?=.*(?:高级|标准)).*$)`(^(?!.*(?:实验|高级)).*$)
+custom_proxy_group=🔍 Google`select`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]💶 欧洲auto`((?=.*(?:台|新北|彰化|澎湖|TW|Taiwan|香港|Hong|HK))(?=.*(?:高级|标准)).*$)`(^(?!.*(?:实验|高级)).*$)
 custom_proxy_group=📢 谷歌FCM`select`[]DIRECT`[]🔍 Google`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto
 custom_proxy_group=📲 Telegram`select`[]REJECT`(^(?=.*(?:高级|实验|0))(?=.*(?:新加坡|淡马|狮城|SG|Singapore)).*$)`(荷兰|Netherland|NL|德|DE|Germany)`[]🌍 国外媒体`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇸🇬 狮城auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇺🇲 美国auto`[]💶 欧洲auto`[]🚀 手动切换
 custom_proxy_group=✖️ 推特&SMSs`select`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]💶 欧洲auto`[]🚀 手动切换`select`.*
 
-custom_proxy_group=🇭🇰 香港auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:港|香港|HongKong|HK|Hong Kong))(?!.*(?:高级|实验)).*$)`http://www.apple.com/library/test/success.html`300,100
-custom_proxy_group=🇨🇳 台湾auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:台|新北|彰化|澎湖|TW|Taiwan))(?!.*(?:高级|实验)).*$)`http://www.apple.com/library/test/success.html`300,100
+custom_proxy_group=🇭🇰 香港auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:港|香港|HongKong|HK|Hong Kong))(?!.*(?:实验)).*$)`http://www.apple.com/library/test/success.html`300,100
+custom_proxy_group=🇨🇳 台湾auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:台|新北|彰化|澎湖|TW|Taiwan))(?!.*(?:实验)).*$)`http://www.apple.com/library/test/success.html`300,100
 ;custom_proxy_group=🇸🇬 狮城auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:新加坡|坡|狮城|淡马|SG|Singapore)).*$)`http://www.apple.com/library/test/success.html`300,100
 custom_proxy_group=🇸🇬 狮城auto`select`(新加坡|坡|狮城|淡马|SG|Singapore)
 custom_proxy_group=🇯🇵 日本auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:日本|川日|东京|大阪|泉日|埼玉|沪日|深日|霓虹|JP|Japan))(?!.*(?:高级|实验)).*$)`http://www.apple.com/library/test/success.html`300,100
@@ -153,7 +159,7 @@ custom_proxy_group=🎓 北美学术`select`[]🇺🇲 美国auto`[]🇯🇵 日
 
 ;custom_proxy_group=📺 巴哈姆特`select`[]🇨🇳 台湾auto`[]🚀 节点选择`[]🚀 手动切换`[]DIRECT
 ;custom_proxy_group=🍑 DMMCOJP`select`[]🇯🇵 日本auto
-custom_proxy_group=🌪 Gitlab`select`[]DIRECT`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇸🇬 狮城auto`[]🇯🇵 日本auto`[]🇺🇲 美国auto`[]🚀 手动切换
+custom_proxy_group=🌪 Gitlab`select`[]🌍 国外媒体`[]DIRECT`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇸🇬 狮城auto`[]🇯🇵 日本auto`[]🇺🇲 美国auto`[]🚀 手动切换
 
 custom_proxy_group=🎮 游戏平台`select`[]DIRECT`[]🚀 节点选择`[]♻️ 自动选择`[]🇸🇬 狮城auto`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇺🇲 美国auto`[]🚀 手动切换
 ;custom_proxy_group=🎮 Nintendo`select`[]DIRECT`[]🚀 节点选择`[]♻️ 自动选择`[]🇸🇬 狮城auto`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇺🇲 美国auto`[]🚀 手动切换
