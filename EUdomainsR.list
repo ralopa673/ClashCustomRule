@@ -1,5 +1,6 @@
 # NAME: EUdomains
-# 2024年6月7日 增加opera.com等
+# 2024年6月7日 增加opera.com等 
+# 2024-07-22, luiss.it
 # @日期 增加个别协会和authorities
 DOMAIN-SUFFIX,apkpure.com
 DOMAIN-SUFFIX,winudf.com
@@ -52,6 +53,7 @@ DOMAIN-SUFFIX,bancaditalia.it
 
 #
 DOMAIN-SUFFIX,unibo.it
+DOMAIN-SUFFIX,luiss.it
 DOMAIN-SUFFIX,ox.ac.uk
 DOMAIN-SUFFIX,cam.ac.uk
 DOMAIN-SUFFIX,imperial.ac.uk
