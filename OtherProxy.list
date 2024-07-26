@@ -6,7 +6,7 @@ DOMAIN-SUFFIX,weebly.com
 DOMAIN-SUFFIX,ssrn.com
 
 # Akaimai，仅日、美、欧有CDN
-DOMAIN-SUFFIX,imf.org
+#DOMAIN-SUFFIX,imf.org 但二级域名有些仅美国
 DOMAIN-SUFFIX,aka.ms
 
 # Fastly，仅日、新、美、欧有CDN
