@@ -1,10 +1,11 @@
 # 更新时间 2024年6月6日 加入世界银行 走日本更快
 #@ 2024年6月13日 新增个别协会
-#缩减条目
+#@ 2024年7月27日 缩减条目
 #North-American Academics
-DOMAIN-SUFFIX,sms-activate.org
-DOMAIN-SUFFIX,v2ex.com
-DOMAIN-SUFFIX,doi.org
+#DOMAIN-SUFFIX,sms-activate.org  CF-CDN
+#DOMAIN-SUFFIX,v2ex.com  CF-CDN
+DOMAIN-SUFFIX,openwrt.org
+#DOMAIN-SUFFIX,doi.org
 DOMAIN-SUFFIX,imf.org
 #DOMAIN-SUFFIX,data.imf.org #data.imf.org无CDN，仅安置在华盛顿DC
 #DOMAIN-SUFFIX,data.worldbank.org
@@ -20,9 +21,9 @@ GEOIP,CA
 GEOIP,MX
 
 #
-DOMAIN-SUFFIX,editorialmanager.com
-DOMAIN-SUFFIX,weebly.com
-DOMAIN-SUFFIX,cepr.org
+#DOMAIN-SUFFIX,editorialmanager.com
+#DOMAIN-SUFFIX,weebly.com
+#DOMAIN-SUFFIX,cepr.org
 DOMAIN-SUFFIX,aeaweb.org
 DOMAIN-SUFFIX,afajof.org
 DOMAIN-SUFFIX,sfs.org
