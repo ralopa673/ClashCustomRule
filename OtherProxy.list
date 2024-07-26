@@ -11,6 +11,9 @@ DOMAIN-SUFFIX,aka.ms
 
 # Fastly，仅日、新、美、欧有CDN
 DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,rstudio.org
+DOMAIN-SUFFIX,posit.co
+DOMAIN-SUFFIX,julialang.org
 
 # 仅欧美有CDN，openwrt.org
 
@@ -29,3 +32,4 @@ DOMAIN-SUFFIX,gptsapi.net
 DOMAIN-SUFFIX,gitbook.io
 DOMAIN-SUFFIX,sms-activate.org
 DOMAIN-SUFFIX,v2ex.com
+DOMAIN-SUFFIX,anaconda.com
