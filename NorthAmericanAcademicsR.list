@@ -6,6 +6,8 @@
 #DOMAIN-SUFFIX,v2ex.com  CF-CDN
 DOMAIN-SUFFIX,openwrt.org
 DOMAIN-SUFFIX,pkgs.tailscale.com
+DOMAIN-SUFFIX,dl.tailscale.com
+
 #DOMAIN-SUFFIX,doi.org
 DOMAIN-SUFFIX,imf.org
 #DOMAIN-SUFFIX,data.imf.org #data.imf.org无CDN，仅安置在华盛顿DC
