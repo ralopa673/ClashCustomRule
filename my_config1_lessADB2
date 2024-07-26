@@ -12,6 +12,7 @@
 ;; v9c，增加欧洲节点[💶 欧洲auto] ;; v9e，使用缩减规模后的EUdomains和NorthAmerican，以及更改北美网站和欧洲网站的默认节点
 ;v10, 根据2024-04月chinnsen的my_remote_config规则重新改; 加入twitter、line、WhatsApp、instagram，打包合并到[✖️ 推特&SMSs] 
 ; 2024-07-16，增加DNS服务器: 🗄️ 常用DNS
+; 2024-07-27, 扩容🚀 节点选择
 
 ;去广告：支持
 ;自动测速：支持
