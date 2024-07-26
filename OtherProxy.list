@@ -19,6 +19,7 @@ DOMAIN-SUFFIX,julialang.org
 
 # Amazon
 DOMAIN-SUFFIX,worldbank.org
+DOMAIN-SUFFIX,docker.com
 
 # Cloudflare， 大部分在香港没有部属CDN
 DOMAIN-SUFFIX,doi.org
