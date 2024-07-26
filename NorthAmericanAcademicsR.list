@@ -5,6 +5,7 @@
 #DOMAIN-SUFFIX,sms-activate.org  CF-CDN
 #DOMAIN-SUFFIX,v2ex.com  CF-CDN
 DOMAIN-SUFFIX,openwrt.org
+DOMAIN-SUFFIX,r-project.org
 DOMAIN-SUFFIX,pkgs.tailscale.com
 DOMAIN-SUFFIX,dl.tailscale.com
 
