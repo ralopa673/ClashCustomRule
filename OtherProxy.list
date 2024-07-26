@@ -1,0 +1,26 @@
+# 在日本 (其次香港, 可能很少) 有CDN的域名
+# 创建日期：2024年7月26日
+
+DOMAIN-SUFFIX,overleaf.com
+DOMAIN-SUFFIX,weebly.com
+DOMAIN-SUFFIX,ssrn.com
+
+# Akaimai，仅日、美、欧有CDN
+DOMAIN-SUFFIX,imf.org
+DOMAIN-SUFFIX,aka.ms
+
+# Fastly，仅日、新、美、欧有CDN
+DOMAIN-SUFFIX,reddit.com
+
+# 仅欧美有CDN，openwrt.org
+
+# Amazon
+DOMAIN-SUFFIX,worldbank.org
+
+# Cloudflare， 大部分在香港没有部属CDN
+DOMAIN-SUFFIX,doi.org
+DOMAIN-SUFFIX,cepr.org
+DOMAIN-SUFFIX,editorialmanager.com
+DOMAIN-SUFFIX,nextdns.io
+DOMAIN-SUFFIX,fimgs.net
+DOMAIN-KEYWORD,justmysocks
