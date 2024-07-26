@@ -1,14 +1,14 @@
-# 更新时间 2024年3月30日
+# 更新时间 2024年7月27日
 #North-American Academics
-DOMAIN-SUFFIX,doi.org
-DOMAIN-SUFFIX,imf.org
-DOMAIN-SUFFIX,editorialmanager.com
-DOMAIN-SUFFIX,weebly.com
-DOMAIN-SUFFIX,cepr.org
+#DOMAIN-SUFFIX,doi.org
+#DOMAIN-SUFFIX,imf.org
+#DOMAIN-SUFFIX,editorialmanager.com
+#DOMAIN-SUFFIX,weebly.com
+#DOMAIN-SUFFIX,cepr.org
 DOMAIN-SUFFIX,aeaweb.org
 DOMAIN-SUFFIX,afajof.org
 DOMAIN-SUFFIX,sfs.org
-DOMAIN-SUFFIX,ssrn.com
+#DOMAIN-SUFFIX,ssrn.com
 DOMAIN-SUFFIX,repec.org
 DOMAIN-SUFFIX,westernfinance.org
 DOMAIN-SUFFIX,midwestfinance.org
