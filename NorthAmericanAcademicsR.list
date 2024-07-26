@@ -24,7 +24,8 @@ GEOIP,CA
 GEOIP,MX
 
 #
-#DOMAIN-SUFFIX,crossref.org
+DOMAIN-SUFFIX,crossref.org
+DOMAIN-SUFFIX,scopusfeedback.com
 #DOMAIN-SUFFIX,editorialmanager.com
 #DOMAIN-SUFFIX,weebly.com
 #DOMAIN-SUFFIX,cepr.org
