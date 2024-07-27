@@ -17,10 +17,12 @@ DOMAIN-SUFFIX,julialang.org
 
 # 仅欧美有CDN，openwrt.org
 
-# Amazon
+# Amazon 为数不多有香港CDN的
 DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,worldbank.org
 DOMAIN-SUFFIX,peeringdb.com
+DOMAIN-SUFFIX,statcdn.com
+DOMAIN-SUFFIX,statista.com
 
 # Cloudflare， 大部分在香港没有部属CDN
 DOMAIN-SUFFIX,docker.io
@@ -31,11 +33,14 @@ DOMAIN-SUFFIX,fao.org
 DOMAIN-SUFFIX,who.int
 DOMAIN-SUFFIX,adb.org
 DOMAIN-SUFFIX,editorialmanager.com
-DOMAIN-SUFFIX,nextdns.io
-DOMAIN-SUFFIX,fimgs.net
-DOMAIN-KEYWORD,justmysocks
-DOMAIN-SUFFIX,gptsapi.net
 DOMAIN-SUFFIX,gitbook.io
-DOMAIN-SUFFIX,sms-activate.org
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,anaconda.com
+#
+DOMAIN-KEYWORD,justmysocks
+DOMAIN-SUFFIX,fimgs.net
+DOMAIN-SUFFIX,nextdns.io
+DOMAIN-SUFFIX,sms-activate.org
+DOMAIN-SUFFIX,gptsapi.net
+DOMAIN-SUFFIX,investing.com
+DOMAIN-SUFFIX,statcounter.com
