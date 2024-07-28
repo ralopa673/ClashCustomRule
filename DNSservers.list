@@ -11,6 +11,31 @@ IP-CIDR,185.222.222.222/32,no-resolve
 IP-CIDR,45.11.45.11/32,no-resolve
 IP-CIDR6,2a09::/128,no-resolve
 IP-CIDR6,2a11::/128,no-resolve
+## HK
+#hk-hkg.doh.sb
+IP-CIDR,45.125.0.26/32,no-resolve
+## JP
+# 东京jp-nrt.doh.sb; 大阪jp-kix.doh.sb
+IP-CIDR,103.121.210.210/32,no-resolve
+IP-CIDR,202.5.221.134/32,no-resolve
+## SG
+# 甲sg-sin.doh.sb; 乙sg-sin2.doh.sb
+#IP-CIDR,165.22.61.129/32,no-resolve
+#IP-CIDR,92.118.188.53/32,no-resolve
+## DE
+# 法兰克福de-fra.doh.sb （电信直连 1770ms）; 柏林de-ber.doh.sb（电信直连220ms）; 杜塞尔多夫de-dus.doh.sb
+#IP-CIDR,147.78.178.172/32,no-resolve
+#IP-CIDR,45.142.247.194/32,no-resolve
+#IP-CIDR,62.133.35.15/32,no-resolve
+## NL
+# 甲nl-ams.doh.sb; 乙nl-ams2.doh.sb （乙的194.169网段 电信直连 170ms）
+#IP-CIDR,78.142.193.51/32,no-resolve
+#IP-CIDR,194.169.181.35/32,no-resolve
+## US
+# 洛杉矶us-lax.doh.sb （电信190ms）; 圣荷西us-sjc.doh.sb （电信210ms）
+#IP-CIDR,142.147.92.18/32,no-resolve
+#IP-CIDR,142.147.91.99/32,no-resolve
+
 
 # Quad9 of IBM  电信直连230ms
 IP-CIDR,9.9.9.9/32,no-resolve
@@ -18,21 +43,26 @@ IP-CIDR,149.112.112.112/32,no-resolve
 IP-CIDR6,2620:fe::fe/128,no-resolve
 IP-CIDR6,2620:fe::9/128,no-resolve
 
+
 # 101 from TW, 联通直连<50ms，但电信直连90ms
 IP-CIDR,101.101.101.101/32,no-resolve 
 IP-CIDR,101.102.103.104/32,no-resolve
 IP-CIDR6,2001:de4::101/128,no-resolve
 IP-CIDR6,2001:de4::102/128,no-resolve
 
+
 # Cloudflare
 IP-CIDR,1.0.0.1/32,no-resolve
 IP-CIDR,1.1.1.1/32,no-resolve
 
+
 # NextDNS
 DOMAIN-SUFFIX,nextdns.io
 
+
 # ip.sb / api-ipv4.ip.sb  电信直连280ms
 DOMAIN-SUFFIX,ip.sb
+
 
 # jp.tiarap.org  电信直连 220ms
 DOMAIN-SUFFIX,tiarap.org
