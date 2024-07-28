@@ -60,6 +60,11 @@ IP-CIDR,1.1.1.1/32,no-resolve
 DOMAIN-SUFFIX,nextdns.io
 
 
+# adguard-dns
+DOMAIN-SUFFIX,adguard.info
+DOMAIN-KEYWORD,adguard-dns
+
+
 # ip.sb / api-ipv4.ip.sb  电信直连280ms
 DOMAIN-SUFFIX,ip.sb
 
