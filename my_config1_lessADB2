@@ -224,9 +224,9 @@ rename=!!GROUP=Tsunami!!^@TN-
 ;Options for renaming nodes
 ;rename=Test-(.*?)-(.*?)-(.*?)\((.*?)\)@\1\4x测试线路_自\2到\3
 ;rename=\(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
-rename_node=实验性\s?IEPL\s?中继\s?@ E
+rename_node=实验性\s?IEPL\s?中继\s?1@ 🧪
 rename_node=标准\s?IEPL\s?中继\s?@ A
-rename_node=高级\s?IEPL\s?中继\s?@ 🌠
+rename_node=高级\s?IEPL\s?中继\s?@ X
 
 ;rename_node=阿联酋@UAE
 ;rename_node=以色列@Israel
