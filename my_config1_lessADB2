@@ -226,43 +226,38 @@ rename=!!GROUP=Tsunami!!^@TN-
 ;rename=\(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?@$1x
 rename_node=实验性\s?IEPL\s?中继\s?@ E
 rename_node=标准\s?IEPL\s?中继\s?@ A
-rename_node=高级\s?IEPL\s?中继\s?@ S
+rename_node=高级\s?IEPL\s?中继\s?@ 🌠
 
-rename_node=阿联酋@UAE
-rename_node=以色列@Israel
-rename_node=埃及@Egypt
-rename_node=土耳其@Turkey
+;rename_node=阿联酋@UAE
+;rename_node=以色列@Israel
+;rename_node=埃及@Egypt
+;rename_node=土耳其@Turkey
 
-rename_node=韩国@Korea
-rename_node=越南@Vietnam
-rename_node=泰国@Thailand
-rename_node=印度@India
-rename_node=巴基斯坦@Pakistan
-rename_node=越南@Vietnam
-rename_node=菲律宾@Philippines
-rename_node=印尼@Indonesia
-rename_node=马来西亚@Malaysia
+;rename_node=韩国@Korea
+;rename_node=越南@Vietnam
+;rename_node=泰国@Thailand
+;rename_node=印度@India
+;rename_node=巴基斯坦@Pakistan
+;rename_node=越南@Vietnam
+;rename_node=菲律宾@Philippines
+;rename_node=印尼@Indonesia
+;rename_node=马来西亚@Malaysia
 
-rename_node=智利@Chile
-rename_node=阿根廷@Argentina
-rename_node=巴西@Brazil
-rename_node=澳大利亚@Australia
-rename_node=新西兰@New Zealand
+;rename_node=智利@Chile
+;rename_node=阿根廷@Argentina
+;rename_node=巴西@Brazil
+;rename_node=澳大利亚@Australia
+;rename_node=新西兰@New Zealand
 
-rename_node=匈牙利@Hungary
-rename_node=摩尔多瓦@Moldova
+;rename_node=匈牙利@Hungary
+;rename_node=摩尔多瓦@Moldova
 ;rename_node=乌克兰@UKR
-rename_node=意大利@Italy
-rename_node=西班牙@Spain
+;rename_node=意大利@Italy
+;rename_node=西班牙@Spain
 
 ;rename_node=英国@UK
 ;rename_node=荷兰@Netherlands
 ;rename_node=德国@Germany
-rename_node=法国@France
-rename_node=加拿大@Canada
+;rename_node=法国@France
+;rename_node=加拿大@Canada
 
-
-;rename=\(标准\s\)?@$🅰
-;rename=\(高级\s\)?@$🌟
-;rename=\(IEPL\s\)?@$PL
-;rename=\(IPLC\s\)?@$LC
