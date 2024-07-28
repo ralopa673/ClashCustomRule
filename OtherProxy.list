@@ -39,7 +39,7 @@ DOMAIN-SUFFIX,anaconda.com
 #
 DOMAIN-KEYWORD,justmysocks
 DOMAIN-SUFFIX,fimgs.net
-DOMAIN-SUFFIX,nextdns.io
+#DOMAIN-SUFFIX,nextdns.io
 DOMAIN-SUFFIX,sms-activate.org
 DOMAIN-SUFFIX,gptsapi.net
 DOMAIN-SUFFIX,investing.com
