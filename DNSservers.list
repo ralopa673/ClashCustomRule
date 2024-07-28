@@ -63,7 +63,7 @@ DOMAIN-SUFFIX,nextdns.io
 # adguard-dns
 DOMAIN-SUFFIX,adguard.info
 DOMAIN-KEYWORD,adguard-dns
-
+DOMAIN-SUFFIX,adguard.org
 
 # ip.sb / api-ipv4.ip.sb  电信直连280ms
 DOMAIN-SUFFIX,ip.sb
