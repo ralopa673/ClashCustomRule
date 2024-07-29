@@ -3,8 +3,8 @@
 # 2024-07-22, luiss.it
 # 2024-07-27, 联合国un.org
 # @日期 增加个别协会和authorities
-DOMAIN-SUFFIX,apkpure.com
-DOMAIN-SUFFIX,winudf.com
+#DOMAIN-SUFFIX,apkpure.com
+#DOMAIN-SUFFIX,winudf.com
 DOMAIN-SUFFIX,opera.com
 DOMAIN-KEYWORD,giffgaff
 
