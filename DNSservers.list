@@ -12,10 +12,10 @@ IP-CIDR,45.11.45.11/32,no-resolve
 IP-CIDR6,2a09::/128,no-resolve
 IP-CIDR6,2a11::/128,no-resolve
 ## HK
-#hk-hkg.doh.sb
+#hk-hkg.doh.sb 联通130ms
 IP-CIDR,45.125.0.26/32,no-resolve
 ## JP
-# 东京jp-nrt.doh.sb; 大阪jp-kix.doh.sb
+# 东京jp-nrt.doh.sb （联通92ms）; 大阪jp-kix.doh.sb （联通80ms）
 IP-CIDR,103.121.210.210/32,no-resolve
 IP-CIDR,202.5.221.134/32,no-resolve
 ## SG
@@ -23,7 +23,7 @@ IP-CIDR,202.5.221.134/32,no-resolve
 #IP-CIDR,165.22.61.129/32,no-resolve
 #IP-CIDR,92.118.188.53/32,no-resolve
 ## DE
-# 法兰克福de-fra.doh.sb （电信直连 1770ms）; 柏林de-ber.doh.sb（电信直连220ms）; 杜塞尔多夫de-dus.doh.sb
+# 法兰克福de-fra.doh.sb （电信直连 177ms，联通210ms）; 柏林de-ber.doh.sb（电信直连220ms，联通180ms）; 杜塞尔多夫de-dus.doh.sb （联通190ms）
 #IP-CIDR,147.78.178.172/32,no-resolve
 #IP-CIDR,45.142.247.194/32,no-resolve
 #IP-CIDR,62.133.35.15/32,no-resolve
@@ -44,19 +44,19 @@ IP-CIDR6,2620:fe::fe/128,no-resolve
 IP-CIDR6,2620:fe::9/128,no-resolve
 
 
-# 101 from TW, 联通直连<50ms，但电信直连90ms
+# 101 from TW, 联通直连50ms，但电信直连90ms
 IP-CIDR,101.101.101.101/32,no-resolve 
 IP-CIDR,101.102.103.104/32,no-resolve
 IP-CIDR6,2001:de4::101/128,no-resolve
 IP-CIDR6,2001:de4::102/128,no-resolve
 
 
-# Cloudflare
+# Cloudflare 联通>200ms
 IP-CIDR,1.0.0.1/32,no-resolve
 IP-CIDR,1.1.1.1/32,no-resolve
 
 
-# NextDNS
+# NextDNS  ，联通85ms
 DOMAIN-SUFFIX,nextdns.io
 
 
@@ -65,7 +65,7 @@ DOMAIN-SUFFIX,adguard.info
 DOMAIN-KEYWORD,adguard-dns
 DOMAIN-SUFFIX,adguard.org
 
-# ip.sb / api-ipv4.ip.sb  电信直连280ms
+# ip.sb / api-ipv4.ip.sb  电信直连280ms /联通95ms
 DOMAIN-SUFFIX,ip.sb
 
 
@@ -76,5 +76,5 @@ IP-CIDR,174.138.21.128/32,no-resolve
 IP-CIDR,188.166.206.224/32,no-resolve
 IP-CIDR6,2400:6180:0:d0::5f6e:4001/128,no-resolve
 
-# https://public.dns.iij.jp/dns-query   电信直连80ms
+# https://public.dns.iij.jp/dns-query   电信直连80ms /联通67ms
 DOMAIN-SUFFIX,dns.iij.jp
