@@ -1,7 +1,7 @@
 # NAME: EUdomains
 # 2024年6月7日 增加opera.com等 
 # 2024-07-22, luiss.it
-# 2024-07-27, 联合国un.org
+# 2024-07-27, 联合国un.org; bocconi.eu/it
 # @日期 增加个别协会和authorities
 #DOMAIN-SUFFIX,apkpure.com
 #DOMAIN-SUFFIX,winudf.com
@@ -10,7 +10,7 @@ DOMAIN-KEYWORD,giffgaff
 
 ## 欧洲学术
 DOMAIN-SUFFIX,qs.com
-DOMAIN-SUFFIX,timeshighereducation.com
+#DOMAIN-SUFFIX,timeshighereducation.com
 DOMAIN-SUFFIX,oecdcode.org
 DOMAIN-SUFFIX,oecd-ilibrary.org
 DOMAIN-SUFFIX,un.org
