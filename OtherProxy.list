@@ -1,5 +1,6 @@
 # 在日本 (其次香港, 但<10%在🇭🇰 ) 有CDN的域名
 # 创建日期：2024年7月27日
+# 2024年7月30日 add DOMAIN-SUFFIX,timeshighereducation.com
 
 DOMAIN-SUFFIX,overleaf.com
 DOMAIN-SUFFIX,weebly.com
@@ -14,6 +15,7 @@ DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,rstudio.org
 DOMAIN-SUFFIX,posit.co
 DOMAIN-SUFFIX,julialang.org
+DOMAIN-SUFFIX,timeshighereducation.com
 
 # 仅欧美有CDN，openwrt.org
 
