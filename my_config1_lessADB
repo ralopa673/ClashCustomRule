@@ -230,6 +230,7 @@ emoji=(TR),🇹🇷
 emoji=(AE),🇦🇪
 emoji=(Pakistan),🇵🇰
 emoji=(NL|Netherland),🇳🇱
+emoji=(Moscow|Russia),🇷🇺
 
 ;Options for renaming nodes
 ;rename=Test-(.*?)-(.*?)-(.*?)\((.*?)\)@\1\4x测试线路_自\2到\3
