@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,edu.cn
 DOMAIN-SUFFIX,speedtest.im
 DOMAIN-SUFFIX,expreview.com
 DOMAIN-SUFFIX,opera.com
+DOMAIN-SUFFIX,operachina.com
 
 ## 内网穿透
 PROCESS-NAME,tailscale
