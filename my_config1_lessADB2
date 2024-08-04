@@ -229,6 +229,8 @@ rename_node=标准\s?IEPL\s?中继\s?@ A
 rename_node=高级\s?IEPL\s?中继\s?@ X
 rename_node=Türkiye@Turkey
 rename_node=Johannesburg@South Africa
+# simplify WestData
+rename_node=\|\s?0@
 
 
 ;rename_node=阿联酋@UAE
