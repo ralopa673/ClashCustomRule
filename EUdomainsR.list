@@ -51,6 +51,7 @@ GEOIP,BE
 GEOIP,AT
 
 # Authorities
+DOMAIN-SUFFIX,bis.org
 DOMAIN-SUFFIX,bundesbank.de
 DOMAIN-SUFFIX,suomenpankki.fi
 DOMAIN-SUFFIX,banque-france.fr
