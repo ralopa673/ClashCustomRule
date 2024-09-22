@@ -207,7 +207,7 @@ exclude_remarks=(IPV6|重置|流量|用户|Traffic|Expire|本站|漏洞|永久�
 rename=!!GROUP=milkcat!!^@MilkCat-
 rename=!!GROUP=DegYax!!^@Deg-
 rename=!!GROUP=Suya!!^@Suya-
-rename=!!GROUP=Tsunami!!^@TN-
+rename=!!GROUP=FC!!^@FC-
 
 ;Options for adding emojis
 ;add_emoji=true
