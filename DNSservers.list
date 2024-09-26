@@ -52,8 +52,8 @@ IP-CIDR6,2001:de4::102/128,no-resolve
 
 
 # Cloudflare 联通>200ms
-IP-CIDR,1.0.0.1/32,no-resolve
-IP-CIDR,1.1.1.1/32,no-resolve
+IP-CIDR,1.0.0.1/24,no-resolve
+IP-CIDR,1.1.1.1/24,no-resolve
 
 
 # NextDNS  ，联通85ms
@@ -78,3 +78,7 @@ IP-CIDR6,2400:6180:0:d0::5f6e:4001/128,no-resolve
 
 # https://public.dns.iij.jp/dns-query   电信直连80ms /联通67ms
 DOMAIN-SUFFIX,dns.iij.jp
+
+#OpenDNS: 208.67.220.220 和 208.67.222.222
+IP-CIDR,208.67.222.222/32,no-resolve
+IP-CIDR,208.67.220.220/32,no-resolve
