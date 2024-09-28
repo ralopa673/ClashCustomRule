@@ -103,6 +103,7 @@ ruleset=🍎 苹果服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/mast
 ruleset=❤️ Emby公益服,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/master/EmbyServers.list
 ;EU必须放在[🚀 节点选择,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/proxies.list]的前面。因为DOMAIN-SUFFIX,EU/HK/JP/KR/SG/TW/UK/US/CA在里面。
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/master/OtherProxy.list
+ruleset=🚀 节点选择,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Docker/Docker.list
 ruleset=🇪🇺 欧洲网站,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/master/EUdomainsR.list
 ruleset=🎓 北美学术,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/master/NorthAmericanAcademicsR.list
 #DNS最好放在🚀 节点选择前面，不然nextDNS会被`节点选择`匹配
