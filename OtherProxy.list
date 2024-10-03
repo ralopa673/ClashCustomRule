@@ -25,6 +25,7 @@ DOMAIN-SUFFIX,worldbank.org
 DOMAIN-SUFFIX,peeringdb.com
 DOMAIN-SUFFIX,statcdn.com
 DOMAIN-SUFFIX,statista.com
+DOMAIN-SUFFIX,vercel.app
 
 # Cloudflare， 大部分在香港没有部属CDN
 DOMAIN-SUFFIX,docker.io
