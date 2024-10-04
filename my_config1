@@ -23,13 +23,13 @@
 
 ;设置规则标志位 START [有先后顺序]
 ruleset=📲 Telegram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
-ruleset=📲 Telegram,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.list
+ruleset=📲 Telegram,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Telegram/Telegram.list
 ruleset=📲 Telegram,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/master/TelegramAppendix.list
 
-ruleset=✖️ 推特&SMSs,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitter/Twitter.list
-ruleset=✖️ 推特&SMSs,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Whatsapp/Whatsapp.list
-ruleset=✖️ 推特&SMSs,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Line/Line.list
-ruleset=✖️ 推特&SMSs,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Instagram/Instagram.list
+ruleset=✖️ 推特&SMSs,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Twitter/Twitter.list
+ruleset=✖️ 推特&SMSs,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Whatsapp/Whatsapp.list
+ruleset=✖️ 推特&SMSs,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Line/Line.list
+ruleset=✖️ 推特&SMSs,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Instagram/Instagram.list
 
 ruleset=🎮 游戏平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list
 ruleset=🎮 游戏平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list
@@ -37,30 +37,27 @@ ruleset=🎮 游戏平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/mast
 ;ruleset=🎮 Nintendo,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/Nintendo.list
 
 ruleset=🎵 TikTok,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list
-ruleset=📹 YouTube,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/youtube.list
+ruleset=📹 YouTube,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTube/YouTube.list
 ;;;Google Drive分流到[📹 YouTube]
-ruleset=📹 YouTube,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleDrive/GoogleDrive.list
-ruleset=🔍 Google,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/google.list
+ruleset=📹 YouTube,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GoogleDrive/GoogleDrive.list
+ruleset=🔍 Google,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Google/Google.list
 ;ruleset=📽️ AppleTV+,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/appletvplus.list
 ruleset=🎥 Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
 ruleset=🎥 Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetflixIP.list
 ;ruleset=🎥 Disney+,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DisneyPlus.list
-;ruleset=📽️ PrimeVideo,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AmazonPrimeVideo/AmazonPrimeVideo.list
+;ruleset=📽️ PrimeVideo,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AmazonPrimeVideo/AmazonPrimeVideo.list
 
-ruleset=🌪 Gitlab,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/Gitlab.list
-ruleset=🌪 Gitlab,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Mozilla/Mozilla.list
-ruleset=🌪 Gitlab,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.list
+ruleset=🌪 Gitlab,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GitHub/GitHub.list
+ruleset=🌪 Gitlab,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GitLab/GitLab.list
 ruleset=🤖 OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list
 ruleset=🤖 Claude,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.list
-ruleset=🤖 Claude,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/anthropic.list
-ruleset=🤖 Claude,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/deepl.list
+ruleset=🤖 Claude,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Anthropic/Anthropic.list
 ruleset=🤖 Perplexity,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/refs/heads/master/Perplexity.list
 ;ruleset=📈 IBKR,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/ibkr.list
 ;ruleset=👛 Wallet,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/wallet.list
-;ruleset=🤖 Anthropic,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/anthropic.list
 ruleset=🤖 Copilot,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bing/Bing.list
 ruleset=🤖 Copilot,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Copilot/Copilot.list
-ruleset=🚀 节点选择,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/github.list
+ruleset=🚀 节点选择,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Mozilla/Mozilla.list
 
 ;ruleset=🎼 Spotify,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/spotify.list
 ;ruleset=🍑 DMMCOJP,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/dmmjp.list
@@ -69,18 +66,18 @@ ruleset=🚀 节点选择,https://raw.githubusercontent.com/chinnsenn/ClashCusto
 ruleset=📺 Bilibili,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.list
 ruleset=📺 Bilibili,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list
 ruleset=🌏 国内媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
-ruleset=🌍 国外媒体,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/ProxyMedia.list
+ruleset=🌍 国外媒体,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/refs/heads/master/ProxyMedia.list
 
-ruleset=📰 微博贴吧,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/weibo.list
+ruleset=📰 微博贴吧,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Weibo/Weibo.list
 #贴吧塞入微博分流
 ruleset=📰 微博贴吧,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BaiDuTieBa/BaiDuTieBa.list
-;ruleset=💬 微信,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/wechat.list
-ruleset=🍠 小红书,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/XiaoHongShu.list
+;ruleset=💬 微信,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/WeChat/WeChat.list
+ruleset=🍠 小红书,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/XiaoHongShu/XiaoHongShu.list
 ;ruleset=🕺 字节跳动,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/ByteDance.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/direct.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/refs/heads/master/direct.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WeChat/WeChat.list
@@ -110,7 +107,7 @@ ruleset=🎓 北美学术,https://raw.githubusercontent.com/ralopa673/ClashCusto
 #DNS最好放在🚀 节点选择前面，不然nextDNS会被`节点选择`匹配
 ruleset=🗄️ 常用DNS,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/master/DNSservers.list
 ; 节点选择必须在Onedrive后面
-ruleset=🚀 节点选择,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/proxies.list
+ruleset=🚀 节点选择,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/refs/heads/master/proxies.list
 
 ruleset=🎯 全球直连,[]GEOIP,CN
 ruleset=🐟 漏网之鱼,[]FINAL
