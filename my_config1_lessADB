@@ -56,6 +56,7 @@ ruleset=🤖 OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 ruleset=🤖 Claude,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.list
 ruleset=🤖 Claude,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/anthropic.list
 ruleset=🤖 Claude,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/deepl.list
+ruleset=🤖 Perplexity,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/refs/heads/master/Perplexity.list
 ;ruleset=📈 IBKR,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/ibkr.list
 ;ruleset=👛 Wallet,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/wallet.list
 ;ruleset=🤖 Anthropic,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/anthropic.list
@@ -128,10 +129,10 @@ custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]♻️ 自动�
 
 custom_proxy_group=🗄️ 常用DNS`select`[]🚀 节点选择`[]DIRECT`[]🇭🇰 香港auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]💶 欧洲auto`[]🇨🇳 台湾auto`(^(?!.*(?:实验|0\.\d+\s?(倍|x|X|×)))(?=.*(?:香港|HK|Hong|日本|Japan|JP|新加坡|狮城|Singapore|美|US|[Ss]tates|加拿大|Canada|CA|台湾|Taiwan|TW|德国|Germany|DE|荷兰|Netherland|NL|英国|England|UK|GB|Britain|Kingdom)).*$)
 
-custom_proxy_group=🤖 OpenAI`select`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇨🇳 台湾auto`[]💶 欧洲auto`[]DIRECT`(日本|Japan|JP|美|US|United States|加拿大|Canada|CA|台湾|Taiwan|TW|德国|Germany|DE|荷兰|Netherland|NL|法国|France|FR|英国|England|UK|GB|Britain)
+custom_proxy_group=🤖 OpenAI`select`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇨🇳 台湾auto`[]💶 欧洲auto`[]DIRECT`(日本高级.*)`(^(?!.*(?:高级|实验|低倍率|0\.\d+\s?(倍|x|X|×)))(?=.*(?:日本|Japan|JP|美|US|[Ss]tates|加拿大|Canada|CA|台湾|Taiwan|TW|新加坡|狮城|Singapore|SG|德国|Germany|DE|荷兰|Netherland|NL|英国|England|UK|GB|Britain|United/s?Kingdom|London|澳大利亚|Austr)).*$)
 custom_proxy_group=🤖 Copilot`select`[]🇭🇰 香港auto`[]🚀 节点选择`[]DIRECT`[]🤖 OpenAI`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇨🇳 台湾auto`[]💶 欧洲auto
-custom_proxy_group=🤖 Claude`select`[]REJECT`[]🤖 OpenAI`[]🤖 Copilot`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇨🇳 台湾auto`[]💶 欧洲auto`(^(?!.*(?:高级|实验|低倍率|0\.\d+\s?(倍|x|X|×)))(?=.*(?:日本|Japan|JP|美|US|[Ss]tates|加拿大|Canada|CA|台湾|Taiwan|TW|新加坡|狮城|Singapore|SG|德国|Germany|DE|荷兰|Netherland|NL|英国|England|UK|GB|Britain|United/s?Kingdom|London|澳大利亚|Austr)).*$)
-;custom_proxy_group=🤖 Anthropic`select`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]🚀 手动切换
+custom_proxy_group=🤖 Claude`select`[]REJECT`[]🤖 OpenAI`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇨🇳 台湾auto`[]💶 欧洲auto`(日本高级.*)`(^(?!.*(?:高级|实验|低倍率|0\.\d+\s?(倍|x|X|×)))(?=.*(?:日本|Japan|JP|美|US|[Ss]tates|加拿大|Canada|CA|台湾|Taiwan|TW|新加坡|狮城|Singapore|SG|德国|Germany|DE|荷兰|Netherland|NL|英国|England|UK|GB|Britain|United/s?Kingdom|London|澳大利亚|Austr)).*$)
+;custom_proxy_group=🤖 Perplexity`select`[]REJECT`🤖 OpenAI`[]🤖 Copilot`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇸🇬 狮城auto`[]💶 欧洲auto`(日本高级.*)`(^(?!.*(?:高级|实验|低倍率|0\.\d+\s?(倍|x|X|×)))(?=.*(?:日本|Japan|JP|美|US|[Ss]tates|加拿大|Canada|CA|台湾|Taiwan|TW|新加坡|狮城|Singapore|SG|德国|Germany|DE|荷兰|Netherland|NL|英国|England|UK|GB|Britain|United/s?Kingdom|London|澳大利亚|Austr)).*$)
 
 custom_proxy_group=🎵 TikTok`select`[]DIRECT`[]🚀 节点选择`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`(实验|低倍率|0\.\d+\s?(倍|x|X|×))
 custom_proxy_group=🎥 Netflix`select`[]DIRECT`[]🎵 TikTok`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]🚀 手动切换`(实验|低倍率|0\.\d+\s?(倍|x|X|×))
