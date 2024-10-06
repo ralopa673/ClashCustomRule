@@ -54,7 +54,11 @@ DOMAIN-SUFFIX,oup.com
 DOMAIN-SUFFIX,universitypressscholarship.com
 DOMAIN-KEYWORD,tandfonline
 DOMAIN-KEYWORD,taylorandfrancis
+DOMAIN-SUFFIX,journals.uchicago.edu
+#
+DOMAIN-SUFFIX,pqdtcn.com
 DOMAIN-SUFFIX,proquest.com
+#
 DOMAIN-SUFFIX,ebsco.com
 DOMAIN-SUFFIX,ebscohost.com
 DOMAIN-SUFFIX,emerald.com
