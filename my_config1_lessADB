@@ -178,7 +178,7 @@ custom_proxy_group=🏢 出版社订阅`select`[]DIRECT`(([Bb]ack|BACK).*)`[]�
 custom_proxy_group=📺 Bilibili`select`[]DIRECT`[]🚀 节点选择`select`.*
 custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]📺 Bilibili
 custom_proxy_group=🍠 小红书`select`[]DIRECT`[]📺 Bilibili`select`(实验|[1-2]|低倍率|0\.\d+\s?(倍|x|X|×))
-custom_proxy_group=📰 微博`select`[]DIRECT`[]🍠 小红书`[]📺 Bilibili
+custom_proxy_group=📰 微博贴吧`select`[]DIRECT`[]🍠 小红书`[]📺 Bilibili
 ;custom_proxy_group=🕺 字节跳动`select`[]DIRECT`[]🍠 小红书`[]📺 Bilibili
 ;custom_proxy_group=💬 微信`select`[]DIRECT`[]🍠 小红书`[]📺 Bilibili
 
