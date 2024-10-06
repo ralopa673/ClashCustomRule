@@ -15,6 +15,10 @@ DOMAIN-KEYWORD,awstrack.me
 DOMAIN-KEYWORD,tandfonline
 DOMAIN-KEYWORD,taylorandfrancis
 
+#Wiley
+DOMAIN-SUFFIX,wiley.com
+DOMAIN-SUFFIX,wiley.scienceconnect.io
+
 #UChicago: www.journals.uchicago.edu
 DOMAIN-SUFFIX,journals.uchicago.edu
 
