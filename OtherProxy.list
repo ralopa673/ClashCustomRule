@@ -26,6 +26,7 @@ DOMAIN-SUFFIX,peeringdb.com
 DOMAIN-SUFFIX,statcdn.com
 DOMAIN-SUFFIX,statista.com
 DOMAIN-SUFFIX,vercel.app
+DOMAIN-SUFFIX,ipify.org
 
 # Cloudflare， 大部分在香港没有部属CDN
 DOMAIN-SUFFIX,docker.io
@@ -33,6 +34,9 @@ DOMAIN-SUFFIX,apkpure.com
 DOMAIN-SUFFIX,winudf.com
 DOMAIN-SUFFIX,doi.org
 DOMAIN-SUFFIX,orcid.org
+## orcid.wpengine.com & orcid.zendesk.com & orcid.zendesk.co.jp
+DOMAIN-SUFFIX,wpengine.com
+DOMAIN-KEYWORD,zendesk
 DOMAIN-SUFFIX,cepr.org
 DOMAIN-SUFFIX,fao.org
 DOMAIN-SUFFIX,who.int
