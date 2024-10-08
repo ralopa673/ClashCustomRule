@@ -32,17 +32,17 @@ ruleset=✖️ 推特&SMSs,https://raw.githubusercontent.com/blackmatrix7/ios_ru
 ruleset=✖️ 推特&SMSs,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Line/Line.list
 ruleset=✖️ 推特&SMSs,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Instagram/Instagram.list
 
-ruleset=🎮 游戏平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list
-ruleset=🎮 游戏平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list
-ruleset=🎮 游戏平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
-;ruleset=🎮 Nintendo,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/Nintendo.list
+ruleset=🎮 游戏平台,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Epic/Epic.list
+ruleset=🎮 游戏平台,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Sony/Sony.list
+ruleset=🎮 游戏平台,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Steam/Steam.list
+;ruleset=🎮 Nintendo,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Nintendo/Nintendo.list
 
 ruleset=🎵 TikTok,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list
 ruleset=📹 YouTube,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTube/YouTube.list
 ;;;Google Drive分流到[📹 YouTube]
 ruleset=📹 YouTube,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GoogleDrive/GoogleDrive.list
 ruleset=🔍 Google,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Google/Google.list
-;ruleset=📽️ AppleTV+,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/appletvplus.list
+;ruleset=📽️ AppleTV+,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AppleTV/AppleTV.list
 ruleset=🎥 Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
 ruleset=🎥 Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetflixIP.list
 ;ruleset=🎥 Disney+,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DisneyPlus.list
@@ -50,8 +50,8 @@ ruleset=🎥 Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Cl
 
 ruleset=🌪 Gitlab,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GitHub/GitHub.list
 ruleset=🌪 Gitlab,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GitLab/GitLab.list
-ruleset=🤖 OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list
-ruleset=🤖 Claude,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.list
+ruleset=🤖 OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/OpenAI/OpenAI.list
+ruleset=🤖 Claude,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Claude/Claude.list
 ruleset=🤖 Claude,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Anthropic/Anthropic.list
 ruleset=🤖 Perplexity,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/refs/heads/master/Perplexity.list
 ;ruleset=📈 IBKR,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/ibkr.list
@@ -62,29 +62,29 @@ ruleset=🚀 节点选择,https://raw.githubusercontent.com/blackmatrix7/ios_rul
 ;PressSites
 ruleset=🏢 出版社订阅,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/refs/heads/master/PressSites.list
 
-;ruleset=🎼 Spotify,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/spotify.list
-;ruleset=🍑 DMMCOJP,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/dmmjp.list
-;ruleset=📺 巴哈姆特,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list
+;ruleset=🎼 Spotify,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Spotify/Spotify.list
+;ruleset=🍑 DMMCOJP,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/refs/heads/master/dmmjp.list
+;ruleset=📺 巴哈姆特,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/Bahamut.list
 
-ruleset=📺 Bilibili,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.list
-ruleset=📺 Bilibili,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list
-ruleset=🌏 国内媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
+ruleset=📺 Bilibili,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/BiliBili/BiliBili.list
+ruleset=📺 Bilibili,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/BilibiliHMT.list
+ruleset=🌏 国内媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ChinaMedia.list
 ruleset=🌍 国外媒体,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/refs/heads/master/ProxyMedia.list
 
 ruleset=📰 微博贴吧,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Weibo/Weibo.list
 #贴吧塞入微博分流
-ruleset=📰 微博贴吧,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BaiDuTieBa/BaiDuTieBa.list
+ruleset=📰 微博贴吧,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/BaiDuTieBa/BaiDuTieBa.list
 ;ruleset=💬 微信,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/WeChat/WeChat.list
 ruleset=🍠 小红书,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/XiaoHongShu/XiaoHongShu.list
-;ruleset=🕺 字节跳动,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/ByteDance.list
+;ruleset=🕺 字节跳动,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/refs/heads/master/ByteDance.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/refs/heads/master/direct.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WeChat/WeChat.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/master/OtherDirect.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/WeChat/WeChat.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/refs/heads/master/OtherDirect.list
 
 ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
 ruleset=🍃 应用净化,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
@@ -102,7 +102,7 @@ ruleset=🍎 苹果服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/mast
 #ruleset=🍎 苹果服务,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.list
 ruleset=❤️ Emby公益服,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/master/EmbyServers.list
 ;EU必须放在[🚀 节点选择,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/proxies.list]的前面。因为DOMAIN-SUFFIX,EU/HK/JP/KR/SG/TW/UK/US/CA在里面。
-ruleset=🚀 节点选择,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/master/OtherProxy.list
+ruleset=🚀 节点选择,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/refs/heads/master/OtherProxy.list
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Docker/Docker.list
 ruleset=🇪🇺 欧洲网站,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/master/EUdomainsR.list
 ruleset=🎓 北美学术,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/master/NorthAmericanAcademicsR.list
