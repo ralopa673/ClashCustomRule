@@ -5,6 +5,7 @@
 #@ 2024年6月12日 添加webofscience, wiley, IEEE, BVD等
 #@ 2024年6月26日 expreview.com
 #@ 2024年8月1日 opera.com
+DOMAIN-SUFFIX,gov.cn
 DOMAIN-SUFFIX,edu.cn
 DOMAIN-SUFFIX,speedtest.im
 DOMAIN-SUFFIX,expreview.com
@@ -36,15 +37,15 @@ DOMAIN-KEYWORD,apple-dns
 ##软件源
 DOMAIN-SUFFIX,old-releases.ubuntu.com
 DOMAIN-SUFFIX,releases.ubuntu.com
-DOMAIN-SUFFIX,devapi.qweather.com
+#DOMAIN-SUFFIX,devapi.qweather.com
 DOMAIN-SUFFIX,right.com.cn
 
 ## 出版社
-DOMAIN-SUFFIX,clarivate.com
-DOMAIN-KEYWORD,webofscience
-DOMAIN-SUFFIX,webofknowledge.com
+#DOMAIN-SUFFIX,clarivate.com
+#DOMAIN-KEYWORD,webofscience
+#DOMAIN-SUFFIX,webofknowledge.com
 #NBER
-DOMAIN-SUFFIX,nber.org
+#DOMAIN-SUFFIX,nber.org
 IP-CIDR,23.185.0.1/32,no-resolve
 #Elsevier
 DOMAIN-SUFFIX,elsevier.com
