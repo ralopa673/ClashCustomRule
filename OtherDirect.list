@@ -40,44 +40,8 @@ DOMAIN-SUFFIX,releases.ubuntu.com
 #DOMAIN-SUFFIX,devapi.qweather.com
 DOMAIN-SUFFIX,right.com.cn
 
-## 出版社
-#DOMAIN-SUFFIX,clarivate.com
-#DOMAIN-KEYWORD,webofscience
-#DOMAIN-SUFFIX,webofknowledge.com
 #NBER
-#DOMAIN-SUFFIX,nber.org
 IP-CIDR,23.185.0.1/32,no-resolve
-#Elsevier
-DOMAIN-SUFFIX,elsevier.com
-DOMAIN-KEYWORD,elsevier-erms
-DOMAIN-KEYWORD,sciencedirect
-DOMAIN-KEYWORD,awstrack.me
-DOMAIN-SUFFIX,wiley.com
-DOMAIN-SUFFIX,scienceconnect.io
-DOMAIN-SUFFIX,cambridge.org
-DOMAIN-SUFFIX,oup.com
-DOMAIN-SUFFIX,universitypressscholarship.com
-DOMAIN-KEYWORD,tandfonline
-DOMAIN-KEYWORD,taylorandfrancis
-DOMAIN-SUFFIX,journals.uchicago.edu
-#
-DOMAIN-SUFFIX,pqdtcn.com
-DOMAIN-SUFFIX,proquest.com
-#
-DOMAIN-SUFFIX,ebsco.com
-DOMAIN-SUFFIX,ebscohost.com
-DOMAIN-SUFFIX,emerald.com
-#jstor
-DOMAIN-SUFFIX,ithaka.org
-DOMAIN-SUFFIX,jstor.org
-#IEEE
-DOMAIN-SUFFIX,computer.org
-DOMAIN-SUFFIX,ieeecomputer.org
-DOMAIN-SUFFIX,ieee.org
-
-#数据库
-DOMAIN-SUFFIX,worldlib.net
-DOMAIN-SUFFIX,bvdinfo.com
 
 ##软件认证
 DOMAIN-SUFFIX,duosecurity.com
