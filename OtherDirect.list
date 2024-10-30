@@ -17,12 +17,15 @@ DOMAIN-SUFFIX,operacdn.com
 ## 内网穿透
 PROCESS-NAME,tailscale
 PROCESS-NAME,tailscaled
-DOMAIN-SUFFIX,tailscale.com
+PROCESS-NAME,tailscale.exe
+PROCESS-NAME,tailscaled.exe
 DOMAIN-SUFFIX,tailscale.io
 PROCESS-NAME,zerotier
 PROCESS-NAME,alist
 PROCESS-NAME,aria2
 #PROCESS-NAME,parsec
+#PROCESS-NAME,parsecd.exe
+#PROCESS-NAME,pservice.exe
 DOMAIN-SUFFIX,parsec.app
 #PROCESS-NAME,todesk
 DOMAIN-SUFFIX,todesk.com
