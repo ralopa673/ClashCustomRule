@@ -14,6 +14,8 @@ DOMAIN-SUFFIX,operachina.com
 DOMAIN-SUFFIX,operacdn.com
 #docker
 #SRC-IP-CIDR,172.17.0.2/32 
+IP-CIDR,47.243.4.0/24,no-resolve
+
 
 ## 内网穿透 
 PROCESS-NAME,tailscale
