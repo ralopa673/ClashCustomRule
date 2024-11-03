@@ -23,8 +23,9 @@ PROCESS-NAME,tailscaled
 PROCESS-NAME,tailscaled (root)
 PROCESS-NAME,tailscale.exe
 PROCESS-NAME,tailscaled.exe
-DOMAIN-REGEX,(derp|control)[A-Za-z0-9]*\.tailscale\.(com|io)
+DOMAIN-REGEX,(derp|control)[A-Za-z0-9]+\.tailscale\.(com|io)
 DOMAIN-SUFFIX,log.tailscale.io
+DOMAIN-SUFFIX,tailscale.com
 PROCESS-NAME,zerotier
 PROCESS-NAME,alist
 PROCESS-NAME,aria2
