@@ -23,6 +23,7 @@ PROCESS-NAME,tailscaled
 PROCESS-NAME,tailscale.exe
 PROCESS-NAME,tailscaled.exe
 DOMAIN-SUFFIX,tailscale.io
+DOMAIN-REGEX,derp[A-Za-z0-9]*\.tailscale\.(com|io)
 PROCESS-NAME,zerotier
 PROCESS-NAME,alist
 PROCESS-NAME,aria2
