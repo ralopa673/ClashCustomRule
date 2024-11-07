@@ -5,6 +5,7 @@
 #@ 2024年6月12日 添加webofscience, wiley, IEEE, BVD等
 #@ 2024年6月26日 expreview.com
 #@ 2024年8月1日 opera.com
+#@ 2024-11-08 huggingface's mirror [日本JP-直连]
 DOMAIN-SUFFIX,gov.cn
 DOMAIN-SUFFIX,edu.cn
 DOMAIN-SUFFIX,speedtest.im
@@ -44,6 +45,7 @@ DOMAIN-SUFFIX,old-releases.ubuntu.com
 DOMAIN-SUFFIX,releases.ubuntu.com
 #DOMAIN-SUFFIX,devapi.qweather.com
 DOMAIN-SUFFIX,right.com.cn
+DOMAIN-SUFFIX,hf-mirror.com
 
 #NBER
 IP-CIDR,23.185.0.1/32,no-resolve
