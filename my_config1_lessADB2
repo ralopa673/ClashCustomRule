@@ -9,7 +9,7 @@
 ; v8增加欧洲网站；
 ;v9增加北美学术,换回apple连通性测试；OtherDirect.list【内网穿透、出版社等】
 ;; v9b，增加emby分流[❤️ Emby公益服]； bing默认设置为[🚀 节点选择]； Google Drive分流到[🌍 国外媒体]，便于走低倍率节点。
-;; v9c，增加欧洲节点[💶 欧洲auto] ;; v9e，使用缩减规模后的EUdomains和NorthAmerican，以及更改北美网站和欧洲网站的默认节点
+;; v9c，增加欧洲节点[🇪🇺 欧洲auto] ;; v9e，使用缩减规模后的EUdomains和NorthAmerican，以及更改北美网站和欧洲网站的默认节点
 ;v10, 根据2024-04月chinnsen的my_remote_config规则重新改; 加入twitter、line、WhatsApp、instagram，打包合并到[✖️ 推特&SMSs] 
 ; 2024-07-16，增加DNS服务器: 🗄️ 常用DNS
 ; 2024-07-27, 扩容🚀 节点选择
@@ -104,8 +104,8 @@ ruleset=❤️ Emby公益服,https://raw.githubusercontent.com/ralopa673/ClashCu
 ;EU必须放在[🚀 节点选择,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/proxies.list]的前面。因为DOMAIN-SUFFIX,EU/HK/JP/KR/SG/TW/UK/US/CA在里面。
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/refs/heads/master/OtherProxy.list
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Docker/Docker.list
-ruleset=🇪🇺 欧洲网站,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/master/EUdomainsR.list
-ruleset=🎓 北美学术,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/master/NorthAmericanAcademicsR.list
+ruleset=💶 欧洲网站,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/master/EUdomainsR.list
+ruleset=🎓 北美网站,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/master/NorthAmericanAcademicsR.list
 #DNS最好放在🚀 节点选择前面，不然nextDNS会被`节点选择`匹配
 ruleset=🗄️ 常用DNS,https://raw.githubusercontent.com/ralopa673/ClashCustomRule/master/DNSservers.list
 ; 节点选择必须在Onedrive后面
@@ -117,7 +117,7 @@ ruleset=🐟 漏网之鱼,[]FINAL
 
 
 ;设置分组标志位
-custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`[]🔯 故障转移`[]👆 手动切换`[]🇸🇬 狮城auto`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇺🇲 美国auto`[]💶 欧洲auto`[]DIRECT
+custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`[]🔯 故障转移`[]👆 手动切换`[]🇸🇬 狮城auto`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇺🇲 美国auto`[]🇪🇺 欧洲auto`[]DIRECT
 custom_proxy_group=👆 手动切换`select`.*
 custom_proxy_group=♻️ 自动选择`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?!.*(?:高级|实验)))`http://clients1.google.com/generate_204`300,100
 
@@ -125,25 +125,25 @@ custom_proxy_group=🔯 故障转移`fallback`(^(?!.*(?:高级|实验|0\.\d+\s?(
 custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]♻️ 自动选择`[]DIRECT`[]🇸🇬 狮城auto`[]🇭🇰 香港auto`[]🇯🇵 日本auto`(^(?!.*(?:高级)).*$)
 ;custom_proxy_group=🎼 Spotify`select`[]DIRECT`[]🚀 节点选择`[]♻️ 自动选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]👆 手动切换
 
-custom_proxy_group=🗄️ 常用DNS`select`[]🚀 节点选择`[]DIRECT`[]🇭🇰 香港auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]💶 欧洲auto`[]🇨🇳 台湾auto`(([Bb]ack|BACK).*)`(^(?!.*(?:实验|0\.\d+\s?(倍|x|X|×)))(?=.*(?:香港|HK|Hong|日本|Japan|JP|新加坡|狮城|Singapore|美|US|[Ss]tates|加拿大|Canada|CA|台湾|Taiwan|TW|德国|Germany|DE|荷兰|Netherland|NL|英国|England|UK|GB|Britain|Kingdom)).*$)
+custom_proxy_group=🗄️ 常用DNS`select`[]🚀 节点选择`[]DIRECT`[]🇭🇰 香港auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]🇪🇺 欧洲auto`[]🇨🇳 台湾auto`(([Bb]ack|BACK).*)`(^(?!.*(?:实验|0\.\d+\s?(倍|x|X|×)))(?=.*(?:香港|HK|Hong|日本|Japan|JP|新加坡|狮城|Singapore|美|US|[Ss]tates|加拿大|Canada|CA|台湾|Taiwan|TW|德国|Germany|DE|荷兰|Netherland|NL|英国|England|UK|GB|Britain|Kingdom)).*$)
 
-custom_proxy_group=🤖 OpenAI`select`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇨🇳 台湾auto`[]💶 欧洲auto`(Back.*)`(日本高级.*)`(^(?!.*(?:高级|实验))(?=.*(?:日本|Japan|JP|美|US|[Ss]tates|加拿大|Canada|CA|台湾|Taiwan|TW|德国|Germany|DE|荷兰|Netherland|NL|英国|England|UK|GB|Britain|United/s?Kingdom|London|新加坡|狮城|Singapore)).*$)
-custom_proxy_group=🤖 Copilot`select`[]🇭🇰 香港auto`[]🚀 节点选择`[]DIRECT`[]🤖 OpenAI`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇨🇳 台湾auto`[]💶 欧洲auto
-custom_proxy_group=🤖 Claude`select`[]🤖 OpenAI`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇨🇳 台湾auto`[]💶 欧洲auto`(日本高级.*)`(^(?!.*(?:高级|实验))(?=.*(?:日本|Japan|JP|美|US|[Ss]tates|加拿大|Canada|CA|台湾|Taiwan|TW|德国|Germany|DE|荷兰|Netherland|NL|英国|England|UK|GB|Britain|United/s?Kingdom|London|新加坡|狮城|Singapore)).*$)
-custom_proxy_group=🤖 Perplexity`select`[]🤖 OpenAI`[]🤖 Copilot`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇸🇬 狮城auto`[]💶 欧洲auto`(日本高级.*)`(^(?!.*(?:高级|实验))(?=.*(?:日本|Japan|JP|美|US|[Ss]tates|加拿大|Canada|CA|台湾|Taiwan|TW|德国|Germany|DE|荷兰|Netherland|NL|英国|England|UK|GB|Britain|United/s?Kingdom|London|新加坡|狮城|Singapore)).*$)
+custom_proxy_group=🤖 OpenAI`select`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇨🇳 台湾auto`[]🇪🇺 欧洲auto`(Back.*)`(日本高级.*)`(^(?!.*(?:高级|实验))(?=.*(?:日本|Japan|JP|美|US|[Ss]tates|加拿大|Canada|CA|台湾|Taiwan|TW|德国|Germany|DE|荷兰|Netherland|NL|英国|England|UK|GB|Britain|United/s?Kingdom|London|新加坡|狮城|Singapore)).*$)
+custom_proxy_group=🤖 Copilot`select`[]🇭🇰 香港auto`[]🚀 节点选择`[]DIRECT`[]🤖 OpenAI`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇨🇳 台湾auto`[]🇪🇺 欧洲auto
+custom_proxy_group=🤖 Claude`select`[]🤖 OpenAI`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇨🇳 台湾auto`[]🇪🇺 欧洲auto`(日本高级.*)`(^(?!.*(?:高级|实验))(?=.*(?:日本|Japan|JP|美|US|[Ss]tates|加拿大|Canada|CA|台湾|Taiwan|TW|德国|Germany|DE|荷兰|Netherland|NL|英国|England|UK|GB|Britain|United/s?Kingdom|London|新加坡|狮城|Singapore)).*$)
+custom_proxy_group=🤖 Perplexity`select`[]🤖 OpenAI`[]🤖 Copilot`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇸🇬 狮城auto`[]🇪🇺 欧洲auto`(日本高级.*)`(^(?!.*(?:高级|实验))(?=.*(?:日本|Japan|JP|美|US|[Ss]tates|加拿大|Canada|CA|台湾|Taiwan|TW|德国|Germany|DE|荷兰|Netherland|NL|英国|England|UK|GB|Britain|United/s?Kingdom|London|新加坡|狮城|Singapore)).*$)
 
 custom_proxy_group=🎵 TikTok`select`[]DIRECT`[]🚀 节点选择`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`(实验|低倍率|0\.\d+\s?(倍|x|X|×))
 custom_proxy_group=🎥 Netflix`select`[]DIRECT`[]🎵 TikTok`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]👆 手动切换
 ;custom_proxy_group=🎥 Disney+`select`[]DIRECT`[]🎵 TikTok`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]👆 手动切换`select`.*
 ;custom_proxy_group=📽️ PrimeVideo`select`[]DIRECT`[]🎵 TikTok`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]👆 手动切换`select`.*
-custom_proxy_group=🌍 国外媒体`select`(实验|低倍率|0\.\d+\s?(倍|x|X|×))`[]DIRECT`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇸🇬 狮城auto`[]🇯🇵 日本auto`[]🇺🇲 美国auto`[]💶 欧洲auto
+custom_proxy_group=🌍 国外媒体`select`(实验|低倍率|0\.\d+\s?(倍|x|X|×))`[]DIRECT`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇸🇬 狮城auto`[]🇯🇵 日本auto`[]🇺🇲 美国auto`[]🇪🇺 欧洲auto
 custom_proxy_group=❤️ Emby公益服`select`[]🌍 国外媒体`[]DIRECT`(实验|低倍率|0\.\d+\s?(倍|x|X|×))`[]🚀 节点选择`[]👆 手动切换
 
 custom_proxy_group=📹 YouTube`select`[]🌍 国外媒体`[]🚀 节点选择`[]DIRECT`[]👆 手动切换
-custom_proxy_group=🔍 Google`select`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]💶 欧洲auto`(([Bb]ack|BACK).*)`((?=.*(?:台|新北|彰化|澎湖|TW|Taiwan|香港|Hong|HK))(?=.*(?:高级|标准)).*$)`(^(?!.*(?:实验|高级)).*$)
+custom_proxy_group=🔍 Google`select`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇪🇺 欧洲auto`(([Bb]ack|BACK).*)`((?=.*(?:台|新北|彰化|澎湖|TW|Taiwan|香港|Hong|HK))(?=.*(?:高级|标准)).*$)`(^(?!.*(?:实验|高级)).*$)
 custom_proxy_group=📢 谷歌FCM`select`[]DIRECT`[]🔍 Google`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto
-custom_proxy_group=📲 Telegram`select`[]REJECT`(([Bb]ack|BACK).*)`(^(?=.*(?:高级|实验|0))(?=.*(?:新加坡|淡马|狮城|SG|Singapore)).*$)`(荷兰|Netherland|NL|德|DE|Germany)`[]🌍 国外媒体`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇸🇬 狮城auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇺🇲 美国auto`[]💶 欧洲auto`[]👆 手动切换
-custom_proxy_group=✖️ 推特&SMSs`select`[]🌍 国外媒体`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]💶 欧洲auto`select`.*
+custom_proxy_group=📲 Telegram`select`[]REJECT`(([Bb]ack|BACK).*)`(^(?=.*(?:高级|实验|0))(?=.*(?:新加坡|淡马|狮城|SG|Singapore)).*$)`(荷兰|Netherland|NL|德|DE|Germany)`[]🌍 国外媒体`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇸🇬 狮城auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇺🇲 美国auto`[]🇪🇺 欧洲auto`[]👆 手动切换
+custom_proxy_group=✖️ 推特&SMSs`select`[]🌍 国外媒体`[]🚀 节点选择`[]🇭🇰 香港auto`[]🇨🇳 台湾auto`[]🇯🇵 日本auto`[]🇸🇬 狮城auto`[]🇺🇲 美国auto`[]🇪🇺 欧洲auto`select`.*
 
 custom_proxy_group=🇭🇰 香港auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:港|香港|HongKong|HK|Hong Kong))(?!.*(?:实验)).*$)`http://clients1.google.com/generate_204`300,100
 custom_proxy_group=🇨🇳 台湾auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:台|新北|彰化|澎湖|TW|Taiwan))(?!.*(?:实验)).*$)`http://clients1.google.com/generate_204`300,100
@@ -154,11 +154,11 @@ custom_proxy_group=🇯🇵 日本auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=
 ;custom_proxy_group=🇺🇲 美国auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:美|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|洛城|SJC|United States|(?<![a-zA-Z])US(?![a-zA-Z])|(?<![a-zA-Z])USA(?![a-zA-Z])|(?<![a-zA-Z])USD(?![a-zA-Z]))).*$)`http://clients1.google.com/generate_204`300,,150
 custom_proxy_group=🇺🇲 美国auto`select`(美|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|洛城|SJC|United States|(?<![a-zA-Z])US(?![a-zA-Z])|(?<![a-zA-Z])USA(?![a-zA-Z])|(?<![a-zA-Z])USD(?![a-zA-Z]))
 ;custom_proxy_group=🇰🇷 韩国auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:KR|Korea|KOR|首尔|韩|韓)).*$)`http://clients1.google.com/generate_204`300,100
-;custom_proxy_group=💶 欧洲auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:DE|德|IT|UK|英|伦敦|意大利|FR|法国|法兰西|巴黎|CH|瑞士|NL|荷兰|LU|卢森堡)).*$)`http://clients1.google.com/generate_204`300,100
-custom_proxy_group=💶 欧洲auto`select`(荷兰|NL|Netherland|德|DE|Germany|英|伦敦|UK|GB|Kingdom|England|Britain|法国|FR|法兰西|巴黎|France|瑞士|CH|Switzerland|Swiss|卢森堡|LU|Luxembourg|意大利|IT|Italy|西班牙|ES|Madrid|Barcelona|Spain|匈牙利|Hungary|HUN)
+;custom_proxy_group=🇪🇺 欧洲auto`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:DE|德|IT|UK|英|伦敦|意大利|FR|法国|法兰西|巴黎|CH|瑞士|NL|荷兰|LU|卢森堡)).*$)`http://clients1.google.com/generate_204`300,100
+custom_proxy_group=🇪🇺 欧洲auto`select`(荷兰|NL|Netherland|德|DE|Germany|英|伦敦|UK|GB|Kingdom|England|Britain|法国|FR|法兰西|巴黎|France|瑞士|CH|Switzerland|Swiss|卢森堡|LU|Luxembourg|意大利|IT|Italy|西班牙|ES|Madrid|Barcelona|Spain|匈牙利|Hungary|HUN)
 
-custom_proxy_group=🇪🇺 欧洲网站`select`[]💶 欧洲auto`[]🇸🇬 狮城auto`[]DIRECT`[]🇭🇰 香港auto`[]🇺🇲 美国auto`[]🚀 节点选择`(实验|低倍率|0\.\d+\s?(倍|x|X|×))
-custom_proxy_group=🎓 北美学术`select`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]DIRECT`[]🇭🇰 香港auto`[]🇸🇬 狮城auto`[]🇨🇳 台湾auto`[]💶 欧洲auto`[]🚀 节点选择`(实验|低倍率|0\.\d+\s?(倍|x|X|×))
+custom_proxy_group=💶 欧洲网站`select`[]🇪🇺 欧洲auto`[]🇸🇬 狮城auto`[]DIRECT`[]🇭🇰 香港auto`[]🇺🇲 美国auto`[]🚀 节点选择`(实验|低倍率|0\.\d+\s?(倍|x|X|×))
+custom_proxy_group=🎓 北美网站`select`[]🇺🇲 美国auto`[]🇯🇵 日本auto`[]DIRECT`[]🇭🇰 香港auto`[]🇸🇬 狮城auto`[]🇨🇳 台湾auto`[]🇪🇺 欧洲auto`[]🚀 节点选择`(实验|低倍率|0\.\d+\s?(倍|x|X|×))
 
 ;custom_proxy_group=📺 巴哈姆特`select`[]🇨🇳 台湾auto`[]🚀 节点选择`[]👆 手动切换`[]DIRECT
 ;custom_proxy_group=🍑 DMMCOJP`select`[]🇯🇵 日本auto
