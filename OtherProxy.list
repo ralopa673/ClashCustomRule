@@ -21,7 +21,6 @@ DOMAIN-SUFFIX,timeshighereducation.com
 
 # Amazon 为数不多有香港CDN的
 DOMAIN-SUFFIX,docker.com
-DOMAIN-SUFFIX,openicpsr.org
 DOMAIN-SUFFIX,worldbank.org
 DOMAIN-SUFFIX,peeringdb.com
 DOMAIN-SUFFIX,statcdn.com
@@ -45,6 +44,7 @@ DOMAIN-SUFFIX,adb.org
 DOMAIN-SUFFIX,editorialmanager.com
 DOMAIN-SUFFIX,gitbook.io
 DOMAIN-SUFFIX,v2ex.com
+DOMAIN-SUFFIX,linux.do
 DOMAIN-SUFFIX,anaconda.com
 #
 DOMAIN-KEYWORD,justmysocks
