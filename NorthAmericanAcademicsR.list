@@ -19,7 +19,7 @@ DOMAIN-SUFFIX,federalreserve.gov
 #只有圣路易有必要列出来。其他的feds域名不规则，丢漏网之鱼走日本即可。
 DOMAIN-SUFFIX,stlouisfed.org
 DOMAIN-SUFFIX,bankofcanada.ca
-#单列出来，且必须前置于[🚀 节点选择]
+#单列出来，且必须前置于[ 节点选择]
 DOMAIN-SUFFIX,ca
 GEOIP,CA
 GEOIP,MX
@@ -32,6 +32,7 @@ DOMAIN-SUFFIX,ariessys.com
 #DOMAIN-SUFFIX,weebly.com
 #DOMAIN-SUFFIX,cepr.org
 DOMAIN-SUFFIX,aeaweb.org
+DOMAIN-SUFFIX,openicpsr.org
 DOMAIN-SUFFIX,afajof.org
 DOMAIN-SUFFIX,sfs.org
 #SSRN走cloudfare，不如丢给漏网之鱼走日本
