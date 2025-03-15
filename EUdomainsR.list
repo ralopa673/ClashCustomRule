@@ -3,11 +3,18 @@
 # 2024-07-22, luiss.it
 # 2024-07-27, 联合国un.org; bocconi.eu/it
 # @日期 增加个别协会和authorities
+# 2025-03-16, LeChat - Mistral
+
 #DOMAIN-SUFFIX,apkpure.com
 #DOMAIN-SUFFIX,winudf.com
 #DOMAIN-SUFFIX,opera.com
 DOMAIN-KEYWORD,giffgaff
 DOMAIN-SUFFIX,hetzner.com
+
+## Mistral - Le Chat
+DOMAIN-SUFFIX,mistral.ai
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
 
 ## 欧洲学术
 DOMAIN-SUFFIX,qs.com
