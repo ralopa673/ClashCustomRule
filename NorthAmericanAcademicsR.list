@@ -21,8 +21,8 @@ DOMAIN-SUFFIX,stlouisfed.org
 DOMAIN-SUFFIX,bankofcanada.ca
 #单列出来，且必须前置于[ 节点选择]
 DOMAIN-SUFFIX,ca
-GEOIP,CA
-GEOIP,MX
+#GEOIP,CA
+#GEOIP,MX
 
 #
 DOMAIN-SUFFIX,crossref.org
