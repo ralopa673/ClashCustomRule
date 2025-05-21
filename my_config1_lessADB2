@@ -244,6 +244,17 @@ rename_node=Johannesburg@South Africa
 rename_node=\|\s?0@\|
 rename_node=United\s?States@US
 rename_node=United\s?Kingdom@England
+# simplify Syn
+rename_node=HK-C@香港
+rename_node=HK-L@香港
+rename_node=TW-C@台湾
+rename_node=MO-C@澳门
+rename_node=SG-C@新加坡
+rename_node=JP-C@日本
+rename_node=JP-L@日本
+rename_node=US-C@美国
+rename_node=GB-C@英国
+rename_node=NG-C@尼日尼亚
 
 ;rename_node=阿联酋@UAE
 ;rename_node=以色列@Israel
