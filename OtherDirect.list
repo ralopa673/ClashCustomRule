@@ -25,6 +25,7 @@ PROCESS-NAME,tailscaled (root)
 PROCESS-NAME,tailscale.exe
 PROCESS-NAME,tailscaled.exe
 #DOMAIN-REGEX,(derp|control)[A-Za-z0-9]+\.tailscale\.(com|io)
+DOMAIN-SUFFIX,ts.net
 DOMAIN-SUFFIX,tailscale.io
 DOMAIN-SUFFIX,tailscale.com
 PROCESS-NAME,zerotier
